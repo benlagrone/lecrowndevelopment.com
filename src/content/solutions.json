@@ -1,0 +1,116 @@
+{
+  "hero": {
+    "eyebrow": "Solutions overview",
+    "title": "Clear solution lines for systems, launch, and capture.",
+    "summary": "LeCrown is organized around a few entry points: automation, software, launch assets, and government-facing support.",
+    "primaryCta": {
+      "label": "Discuss your project",
+      "to": "/contact"
+    },
+    "secondaryCta": {
+      "label": "Meet the company",
+      "to": "/about"
+    },
+    "highlights": [
+      "7-page architecture",
+      "JSON-driven content",
+      "Commercial + public-sector positioning"
+    ],
+    "visual": {
+      "eyebrow": "Buyer clarity",
+      "title": "A simpler map with stronger signal.",
+      "items": [
+        {
+          "label": "AI systems",
+          "value": "Automation, assistants, decision support"
+        },
+        {
+          "label": "Engineering",
+          "value": "Products, portals, integrations, APIs"
+        },
+        {
+          "label": "Growth assets",
+          "value": "Video, messaging, launch materials"
+        }
+      ]
+    }
+  },
+  "categories": [
+    {
+      "title": "AI Automation",
+      "text": "Copilots, document workflows, and decision systems.",
+      "to": "/ai-automation",
+      "linkLabel": "Explore AI automation"
+    },
+    {
+      "title": "Custom Development",
+      "text": "Internal tools, portals, integrations, and product builds.",
+      "to": "/custom-development",
+      "linkLabel": "Open custom development"
+    },
+    {
+      "title": "AI Video",
+      "text": "Demos, explainers, launch assets, and social proof.",
+      "to": "/ai-video",
+      "linkLabel": "View AI video systems"
+    },
+    {
+      "title": "Project Incubation",
+      "text": "Offers, prototypes, MVPs, and first-launch support."
+    },
+    {
+      "title": "Government / Prime Support",
+      "text": "Discovery, pilot framing, capture support, and technical narratives.",
+      "to": "/government",
+      "linkLabel": "Open government support"
+    }
+  ],
+  "industries": [
+    "Government and public sector",
+    "Manufacturing and operations",
+    "Real estate and built environment",
+    "Healthcare and regulated workflows",
+    "Professional services",
+    "Founder-led SaaS and venture studios"
+  ],
+  "delivery": [
+    {
+      "title": "Discovery to pilot",
+      "text": "Scope the use case and define the first win."
+    },
+    {
+      "title": "Build to launch",
+      "text": "Ship the product, system, and launch assets together."
+    },
+    {
+      "title": "Documentation-first",
+      "text": "Keep scope, workflows, and deliverables explicit."
+    }
+  ],
+  "proof": [
+    {
+      "label": "Structure",
+      "value": "Clearer navigation",
+      "text": "Clear paths instead of overlapping pages."
+    },
+    {
+      "label": "Positioning",
+      "value": "AI company, not brochure site",
+      "text": "Lead with systems and outcomes."
+    },
+    {
+      "label": "Delivery",
+      "value": "Ready for pilots",
+      "text": "Built for pilots and scoped delivery."
+    }
+  ],
+  "cta": {
+    "kicker": "Where to start",
+    "title": "Need the right entry point?",
+    "description": "Start with the smallest credible move.",
+    "primary": {
+      "label": "Plan the first engagement",
+      "to": "/contact"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "hero": {
+    "eyebrow": "About LeCrown",
+    "title": "A founder-led AI consultancy built to ship systems, not posture.",
+    "summary": "LeCrown Development is positioned as a modern AI consultancy, project incubator, and launch partner for teams that need execution, clarity, and a credible technical story.",
+    "primaryCta": {
+      "label": "Start a conversation",
+      "to": "/contact"
+    },
+    "secondaryCta": {
+      "label": "See the solutions",
+      "to": "/solutions"
+    },
+    "highlights": [
+      "Automation + engineering",
+      "Launch assets + product thinking",
+      "Government project readiness"
+    ],
+    "visual": {
+      "eyebrow": "Operating stance",
+      "title": "Small enough to move fast. Senior enough to stay credible.",
+      "items": [
+        {
+          "label": "Founder",
+          "value": "Benjamin LaGrone"
+        },
+        {
+          "label": "Focus",
+          "value": "AI systems, software, media, incubation"
+        },
+        {
+          "label": "Fit",
+          "value": "Commercial teams, agencies, primes, ventures"
+        }
+      ]
+    }
+  },
+  "overview": [
+    "LeCrown exists to turn technical capability into deployable systems and visible proof. The company sits at the intersection of AI automation, software engineering, product incubation, and launch-oriented content.",
+    "That combination matters because many buyers do not just need code. They need a clear offer, a believable delivery path, and a system narrative that can survive technical review."
+  ],
+  "founder": {
+    "name": "Benjamin LaGrone",
+    "title": "Software Engineer, AI Developer, Technology Consultant",
+    "summary": "Benjamin leads LeCrown across AI systems, software delivery, and launch strategy. LinkedIn is the cleanest public snapshot of his professional background, current positioning, and network-facing contact path.",
+    "linkedin": "https://www.linkedin.com/in/benjaminlagrone/",
+    "skills": [
+      "AI and machine learning",
+      "Full-stack product development",
+      "Cloud infrastructure",
+      "DevOps and deployment",
+      "Cybersecurity-aware engineering",
+      "Automation system design"
+    ]
+  },
+  "principles": [
+    {
+      "title": "Architecture before hype",
+      "text": "LeCrown leads with workflows, systems, and delivery mechanics rather than abstract AI claims."
+    },
+    {
+      "title": "Execution with narrative",
+      "text": "The build and the story move together so buyers can understand what is real, what is next, and why it matters."
+    },
+    {
+      "title": "Pilot-friendly by design",
+      "text": "Smaller entry points make it easier to prove value, de-risk new work, and support commercial or public-sector capture."
+    }
+  ],
+  "strengths": [
+    {
+      "title": "AI consultancy",
+      "text": "Systems thinking, workflow redesign, and deployment-aware automation work."
+    },
+    {
+      "title": "Project incubator",
+      "text": "Support for new ideas, internal ventures, pilots, and launch-ready MVPs."
+    },
+    {
+      "title": "Social proof partner",
+      "text": "AI video and launch assets that help technical work look visible and credible."
+    },
+    {
+      "title": "Government-ready support",
+      "text": "A structure that can speak to agencies, subcontracting paths, and proposal narratives without pretending to be a giant integrator."
+    }
+  ],
+  "cta": {
+    "kicker": "Fit check",
+    "title": "Best fit for teams that need a builder, not another layer of overhead.",
+    "description": "LeCrown works best when the goal is to turn an opportunity into something concrete: a system, a pilot, a product, or a sharper delivery story.",
+    "primary": {
+      "label": "Talk through the fit",
+      "to": "/contact"
+    }
+  }
+}

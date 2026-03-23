@@ -1,0 +1,91 @@
+{
+  "hero": {
+    "eyebrow": "Contact",
+    "title": "Start with a clean project note.",
+    "summary": "Use the form if you want a real handoff. Email and phone are still here if you want the fastest direct path.",
+    "primaryCta": {
+      "label": "Open the form",
+      "href": "#lead-form"
+    },
+    "secondaryCta": {
+      "label": "Email directly",
+      "href": "mailto:benjamin.lagrone@lecrowndevelopment.com"
+    },
+    "highlights": [
+      "Real submission form",
+      "Commercial and public-sector work",
+      "Founder-led follow-up"
+    ],
+    "visual": {
+      "eyebrow": "Best use of the first call",
+      "title": "Clarify the scope, the buyer, and the fastest credible path.",
+      "items": [
+        {
+          "label": "Projects",
+          "value": "Automation, software, AI video"
+        },
+        {
+          "label": "Buyers",
+          "value": "Agencies, primes, founders, operators"
+        },
+        {
+          "label": "Outcome",
+          "value": "A scoped next step"
+        }
+      ]
+    }
+  },
+  "engagements": [
+    {
+      "title": "Discovery sprint",
+      "text": "Map the workflow, the buyer, and the first move."
+    },
+    {
+      "title": "Build engagement",
+      "text": "Move from backlog or idea into implementation."
+    },
+    {
+      "title": "Government / prime support",
+      "text": "Support agency work, subcontracting paths, and technical narratives."
+    }
+  ],
+  "contacts": [
+    {
+      "title": "Email",
+      "text": "Share your project, opportunity, or target procurement path.",
+      "label": "benjamin.lagrone@lecrowndevelopment.com",
+      "href": "mailto:benjamin.lagrone@lecrowndevelopment.com"
+    },
+    {
+      "title": "Phone",
+      "text": "Use this when the opportunity is active and you want a faster conversation.",
+      "label": "(910) 236-9853",
+      "href": "tel:+19102369853"
+    },
+    {
+      "title": "LinkedIn",
+      "text": "Open the public profile and use LinkedIn messaging if your account relationship and settings allow it.",
+      "label": "linkedin.com/in/benjaminlagrone",
+      "href": "https://www.linkedin.com/in/benjaminlagrone/"
+    },
+    {
+      "title": "Government focus",
+      "text": "If public-sector work is the goal, mention the agency, contract path, or prime relationship in the first note.",
+      "label": "Capture-oriented intake"
+    }
+  ],
+  "checklist": [
+    {
+      "title": "What you are trying to build or win",
+      "text": "Product, pilot, proposal, or new offer."
+    },
+    {
+      "title": "Who the buyer is",
+      "text": "Internal team, client, agency, or prime."
+    },
+    {
+      "title": "What has to happen next",
+      "text": "Discovery, pilot scoping, build, or launch."
+    }
+  ]
+}

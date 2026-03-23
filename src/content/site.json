@@ -1,0 +1,45 @@
+{
+  "brand": {
+    "name": "LeCrown Development",
+    "kicker": "AI consultancy / incubator"
+  },
+  "navigation": [
+    {
+      "label": "Home",
+      "to": "/"
+    },
+    {
+      "label": "Government",
+      "to": "/government"
+    },
+    {
+      "label": "Solutions",
+      "to": "/solutions"
+    },
+    {
+      "label": "AI Automation",
+      "to": "/ai-automation"
+    },
+    {
+      "label": "Custom Development",
+      "to": "/custom-development"
+    },
+    {
+      "label": "AI Video",
+      "to": "/ai-video"
+    },
+    {
+      "label": "About",
+      "to": "/about"
+    },
+    {
+      "label": "Contact",
+      "to": "/contact"
+    }
+  ],
+  "contact": {
+    "email": "benjamin.lagrone@lecrowndevelopment.com",
+    "phone": "(910) 236-9853",
+    "phoneDigits": "+19102369853"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "hero": {
+    "eyebrow": "AI automation",
+    "title": "Design automation systems that actually change throughput.",
+    "summary": "LeCrown builds AI-assisted workflows, data pipelines, copilots, and decision systems for teams that need more than a generic chatbot demo.",
+    "primaryCta": {
+      "label": "Scope an automation pilot",
+      "to": "/contact"
+    },
+    "secondaryCta": {
+      "label": "See custom development",
+      "to": "/custom-development"
+    },
+    "highlights": [
+      "Document workflows",
+      "Operational copilots",
+      "Government-ready delivery narratives"
+    ],
+    "visual": {
+      "eyebrow": "Practical outcomes",
+      "title": "Move from manual review to guided, auditable flows.",
+      "items": [
+        {
+          "label": "Inputs",
+          "value": "Records, forms, APIs, spreadsheets"
+        },
+        {
+          "label": "Core layer",
+          "value": "Extraction, classification, orchestration"
+        },
+        {
+          "label": "Outputs",
+          "value": "Dashboards, decisions, queue reduction"
+        }
+      ]
+    }
+  },
+  "capabilities": [
+    {
+      "title": "Predictive analytics",
+      "text": "Forecast risks, identify likely outcomes, and surface priority cases before they become bottlenecks."
+    },
+    {
+      "title": "Conversational AI",
+      "text": "Build assistants and search layers that help staff, customers, or internal teams find answers faster."
+    },
+    {
+      "title": "Document automation",
+      "text": "Extract data from forms, proposals, intake packets, and policy documents with structured outputs."
+    },
+    {
+      "title": "Workflow orchestration",
+      "text": "Move information across reviews, approvals, escalations, and downstream systems with clearer logic."
+    }
+  ],
+  "diagram": {
+    "kicker": "Reference architecture",
+    "title": "A working automation stack needs more than a model endpoint.",
+    "description": "The value comes from how data, reasoning, workflows, apps, and business rules fit together.",
+    "steps": [
+      {
+        "title": "Source inputs",
+        "text": "Databases, forms, files, line-of-business systems"
+      },
+      {
+        "title": "AI reasoning",
+        "text": "Extraction, search, ranking, summarization, classification"
+      },
+      {
+        "title": "Workflow logic",
+        "text": "Triggers, approvals, escalations, and routing rules"
+      },
+      {
+        "title": "User surfaces",
+        "text": "Dashboards, inboxes, portals, and internal tools"
+      },
+      {
+        "title": "Measured outcomes",
+        "text": "Cycle time reduction, visibility, and cleaner decisions"
+      }
+    ]
+  },
+  "useCases": [
+    {
+      "title": "Proposal and document review",
+      "text": "Summarize large packets, identify exceptions, and prep reviewers with structured insights."
+    },
+    {
+      "title": "Case and queue triage",
+      "text": "Prioritize incoming work, group by urgency, and route cases based on business rules."
+    },
+    {
+      "title": "Internal knowledge assistants",
+      "text": "Give teams searchable, policy-aware assistants over their own documents and workflows."
+    },
+    {
+      "title": "Government and regulated operations",
+      "text": "Design pilots that respect documentation needs, review checkpoints, and security-minded architecture choices."
+    }
+  ],
+  "stack": [
+    "Python",
+    "FastAPI",
+    "React",
+    "Retrieval pipelines",
+    "Workflow orchestration",
+    "Docker",
+    "AWS",
+    "Azure",
+    "Google Cloud"
+  ],
+  "process": [
+    {
+      "title": "Map the workflow",
+      "text": "Identify the decision points, bottlenecks, exceptions, and downstream dependencies."
+    },
+    {
+      "title": "Define the pilot",
+      "text": "Scope a contained use case with clear inputs, outputs, and measurable success criteria."
+    },
+    {
+      "title": "Ship the system",
+      "text": "Build the workflow, user surface, and monitoring needed to make the automation usable."
+    },
+    {
+      "title": "Expand with evidence",
+      "text": "Use the pilot outcomes to justify additional automation paths or production rollout."
+    }
+  ],
+  "cta": {
+    "kicker": "Automation conversations",
+    "title": "If you want government work, show how your systems operate under real constraints.",
+    "description": "LeCrown can help turn AI talk into a credible pilot, architecture narrative, or scoped build.",
+    "primary": {
+      "label": "Start an automation conversation",
+      "to": "/contact"
+    }
+  }
+}

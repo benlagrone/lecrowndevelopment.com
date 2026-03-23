@@ -1,0 +1,120 @@
+{
+  "hero": {
+    "eyebrow": "AI video",
+    "title": "Turn technical work into launch-ready media and proof.",
+    "summary": "LeCrown uses AI video systems to create demos, explainers, launch assets, and campaign content that make products and offers easier to understand and trust.",
+    "primaryCta": {
+      "label": "Plan a content sprint",
+      "to": "/contact"
+    },
+    "secondaryCta": {
+      "label": "View the portfolio signals",
+      "to": "/about"
+    },
+    "highlights": [
+      "Demos and explainers",
+      "Founder and product launches",
+      "Social proof assets"
+    ],
+    "visual": {
+      "eyebrow": "Media system",
+      "title": "Build once, then amplify the offer fast.",
+      "items": [
+        {
+          "label": "Formats",
+          "value": "Demo reels, explainers, campaign assets"
+        },
+        {
+          "label": "Channels",
+          "value": "Web, social, proposals, outbound"
+        },
+        {
+          "label": "Use",
+          "value": "Credibility, education, demand creation"
+        }
+      ]
+    }
+  },
+  "capabilities": [
+    {
+      "title": "AI video generation",
+      "text": "Produce short-form and campaign-ready videos without the overhead of traditional production."
+    },
+    {
+      "title": "Voiceovers and avatars",
+      "text": "Create narrations, host-style content, and repeatable video formats for product or service messaging."
+    },
+    {
+      "title": "Explainers and demos",
+      "text": "Turn complex technical systems into clear narratives that non-technical buyers can follow."
+    },
+    {
+      "title": "Launch support",
+      "text": "Pair product delivery with the media assets needed to announce, pitch, and circulate the work."
+    }
+  ],
+  "pipeline": [
+    {
+      "title": "Message",
+      "text": "Clarify the offer, audience, and call to action."
+    },
+    {
+      "title": "Script",
+      "text": "Turn the product or service into a structured narrative."
+    },
+    {
+      "title": "Generate",
+      "text": "Create visuals, voice, and editing passes with AI-assisted workflows."
+    },
+    {
+      "title": "Deploy",
+      "text": "Package the output for the site, campaigns, decks, or proposals."
+    }
+  ],
+  "videos": [
+    {
+      "label": "Portfolio signal",
+      "title": "AI marketing sample",
+      "text": "Short-form video content used to create faster social proof and audience attention.",
+      "href": "https://www.youtube.com/watch?v=MlETe41AcpU"
+    },
+    {
+      "label": "Portfolio signal",
+      "title": "Real estate promo sample",
+      "text": "A category example showing how LeCrown can package an offer visually for commercial audiences.",
+      "href": "https://www.youtube.com/watch?v=67VwHytRXdY"
+    },
+    {
+      "label": "Portfolio signal",
+      "title": "Cross-language promotional sample",
+      "text": "Useful for campaigns, international positioning, or fast message testing across markets.",
+      "href": "https://www.youtube.com/watch?v=0r3Y2w-mucY"
+    }
+  ],
+  "proof": [
+    {
+      "label": "Why it matters",
+      "value": "Social proof moves faster",
+      "text": "A technical team with no visible output looks smaller than it is. Media changes that."
+    },
+    {
+      "label": "Best use",
+      "value": "Launch + capture support",
+      "text": "Video helps when a new product, proposal, or service needs immediate clarity and energy."
+    },
+    {
+      "label": "Government angle",
+      "value": "Explainer assets",
+      "text": "Complex services are easier to understand when you can visualize process, delivery, and outcomes."
+    }
+  ],
+  "cta": {
+    "kicker": "Content systems",
+    "title": "Need the site to look like a company that actually ships?",
+    "description": "AI video is not just a marketing extra here. It is part of how LeCrown turns delivery into visible proof.",
+    "primary": {
+      "label": "Start a content sprint",
+      "to": "/contact"
+    }
+  }
+}

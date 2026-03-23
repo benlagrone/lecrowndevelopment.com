@@ -1,0 +1,120 @@
+{
+  "hero": {
+    "eyebrow": "Custom development",
+    "title": "Build the software layer that keeps the strategy real.",
+    "summary": "LeCrown turns fragmented operations, product ideas, and integration needs into platforms, portals, and internal tools that teams can actually run on.",
+    "primaryCta": {
+      "label": "Discuss a product build",
+      "to": "/contact"
+    },
+    "secondaryCta": {
+      "label": "Explore AI automation",
+      "to": "/ai-automation"
+    },
+    "highlights": [
+      "Internal tools",
+      "Product incubation",
+      "Portal and API delivery"
+    ],
+    "visual": {
+      "eyebrow": "Engineering focus",
+      "title": "From concept deck to working system.",
+      "items": [
+        {
+          "label": "Platforms",
+          "value": "Dashboards, portals, operator tools"
+        },
+        {
+          "label": "Integrations",
+          "value": "APIs, data sync, system handoffs"
+        },
+        {
+          "label": "Launch",
+          "value": "MVPs, pilots, version-one products"
+        }
+      ]
+    }
+  },
+  "systems": [
+    {
+      "title": "Internal platforms",
+      "text": "Custom dashboards, review tools, and team operating systems designed around the actual workflow."
+    },
+    {
+      "title": "Client-facing portals",
+      "text": "Build portals and web applications that package data, progress, and services into a usable front end."
+    },
+    {
+      "title": "API and integration layers",
+      "text": "Connect third-party systems, automate data movement, and create cleaner interfaces across business tools."
+    },
+    {
+      "title": "Incubated products",
+      "text": "Move a new idea from concept to working MVP with both technical and go-to-market support."
+    }
+  ],
+  "deliveryModes": [
+    {
+      "title": "Rapid pilot",
+      "text": "Fast first version for proving demand, showing buyers, or validating a workflow."
+    },
+    {
+      "title": "Operational build",
+      "text": "A more durable system for internal use, client delivery, or repeated production workflows."
+    },
+    {
+      "title": "Strategic technical leadership",
+      "text": "Architecture, vendor coordination, technical planning, and founder-level product guidance."
+    }
+  ],
+  "stack": [
+    "React",
+    "Vite",
+    "FastAPI",
+    "Python",
+    "Node.js",
+    "Postgres",
+    "Docker",
+    "AWS / Azure / GCP"
+  ],
+  "process": [
+    {
+      "title": "Shape the system",
+      "text": "Translate the business problem into user roles, core workflows, data structures, and delivery priorities."
+    },
+    {
+      "title": "Build the usable layer",
+      "text": "Create the application surfaces, integrations, and operator experiences that people will actually rely on."
+    },
+    {
+      "title": "Prepare for launch",
+      "text": "Wrap the product in the technical, visual, and messaging assets needed to deploy or sell it."
+    }
+  ],
+  "proof": [
+    {
+      "label": "Incubator mode",
+      "value": "Idea to MVP",
+      "text": "Useful when a new initiative needs velocity, not just code output."
+    },
+    {
+      "label": "Operator mode",
+      "value": "Workflow software",
+      "text": "Useful when a team needs a system to replace spreadsheets, inboxes, or repetitive review steps."
+    },
+    {
+      "label": "Capture mode",
+      "value": "Proposal support",
+      "text": "Useful when public-sector or prime opportunities need a clear technical plan behind the pitch."
+    }
+  ],
+  "cta": {
+    "kicker": "Product and platform work",
+    "title": "Need a builder that can ship the system and frame the opportunity?",
+    "description": "LeCrown combines software delivery with the strategic narrative needed for products, pilots, and new lines of business.",
+    "primary": {
+      "label": "Open a build conversation",
+      "to": "/contact"
+    }
+  }
+}

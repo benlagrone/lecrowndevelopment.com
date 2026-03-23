@@ -1,0 +1,73 @@
+{
+  "founder": {
+    "name": "Benjamin LaGrone",
+    "title": "Software Engineer, AI Developer, Technology Consultant",
+    "summary": "Founder-led delivery grounded in AI systems, full-stack product work, cloud and DevOps, cybersecurity-aware engineering, and enterprise IT experience.",
+    "skills": [
+      "AI and machine learning",
+      "Automation system design",
+      "Full-stack product development",
+      "Cloud architecture and DevOps",
+      "Cybersecurity-aware engineering",
+      "Enterprise IT consulting"
+    ]
+  },
+  "industryExposure": [
+    "Energy and manufacturing",
+    "Retail and e-commerce",
+    "Finance",
+    "Real estate",
+    "Healthcare",
+    "Legal"
+  ],
+  "matchByProjectType": {
+    "AI Automation": {
+      "headline": "Strong fit for AI workflow and automation work.",
+      "bullets": [
+        "AI and machine learning background applied to automation, chatbots, and decision-support systems.",
+        "Automation system design paired with enterprise IT experience for real operating environments.",
+        "Cloud and DevOps experience helps move pilots toward deployable systems."
+      ]
+    },
+    "Custom Development": {
+      "headline": "Strong fit for product and platform builds.",
+      "bullets": [
+        "Full-stack product development background for portals, dashboards, APIs, and custom applications.",
+        "Cloud architecture and DevOps experience for deployment-ready delivery.",
+        "Technical consulting experience helps translate business needs into scoped implementation."
+      ]
+    },
+    "AI Video": {
+      "headline": "Strong fit for pairing technical work with visible launch assets.",
+      "bullets": [
+        "LeCrown combines AI delivery with media and explainer outputs so systems can be shown clearly.",
+        "Product and launch-oriented consulting background supports demos, explainers, and campaign-ready assets.",
+        "Founder-led delivery keeps the narrative tied to the actual system being built."
+      ]
+    },
+    "Government / Prime Contractor": {
+      "headline": "Strong fit for procurement-aware technical framing.",
+      "bullets": [
+        "Cybersecurity-aware engineering and enterprise IT experience support more credible technical narratives.",
+        "LeCrown is structured for pilot scoping, documentation, and public-sector-ready delivery paths.",
+        "Technical consulting background helps shape discovery and capture conversations around the real buyer."
+      ]
+    },
+    "Incubation / Venture Build": {
+      "headline": "Strong fit for early-stage product incubation.",
+      "bullets": [
+        "Full-stack product development supports fast MVPs, internal ventures, and launch wedges.",
+        "AI systems and automation background helps compress manual work early in the product lifecycle.",
+        "Founder-led consulting connects product scope, delivery reality, and market-facing proof."
+      ]
+    },
+    "default": {
+      "headline": "Strong fit for founder-led technical delivery.",
+      "bullets": [
+        "Software engineering, AI development, and technical consulting under one roof.",
+        "Cloud, DevOps, and security-minded implementation experience.",
+        "Experience translating business problems into credible technical next steps."
+      ]
+    }
+  }
+}

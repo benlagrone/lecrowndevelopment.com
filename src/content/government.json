@@ -1,0 +1,121 @@
+{
+  "hero": {
+    "eyebrow": "Government / prime support",
+    "title": "Scoped AI delivery for agencies, primes, and public-sector teams.",
+    "summary": "LeCrown helps shape pilots, automation efforts, internal tools, and technical narratives that can survive procurement and review.",
+    "primaryCta": {
+      "label": "Start a government intake",
+      "href": "#government-intake"
+    },
+    "secondaryCta": {
+      "label": "Call Benjamin",
+      "href": "tel:+19102369853"
+    },
+    "highlights": [
+      "Pilot-ready scopes",
+      "Subcontract-friendly delivery",
+      "Founder-led technical narrative"
+    ],
+    "visual": {
+      "eyebrow": "Best fit",
+      "title": "Small, senior, and built for scoped work.",
+      "items": [
+        {
+          "label": "Agency teams",
+          "value": "Pilots, workflows, internal tools"
+        },
+        {
+          "label": "Prime contractors",
+          "value": "Specialty support and technical depth"
+        },
+        {
+          "label": "Capture path",
+          "value": "Discovery, scope, and delivery framing"
+        }
+      ]
+    }
+  },
+  "buyers": {
+    "kicker": "Where LeCrown fits",
+    "title": "Three public-sector entry points.",
+    "items": [
+      {
+        "title": "Agency teams",
+        "text": "Pilots, automation efforts, internal tools, and scoped digital improvements."
+      },
+      {
+        "title": "Prime contractors",
+        "text": "Specialty delivery support, technical narratives, and scoped product work."
+      },
+      {
+        "title": "Subcontract roles",
+        "text": "Clear packages of work that fit under a larger delivery program."
+      }
+    ]
+  },
+  "offers": {
+    "kicker": "Offer structure",
+    "title": "Government-facing work LeCrown can support.",
+    "items": [
+      {
+        "title": "Capture support",
+        "text": "Shape the technical story, scope, and first delivery wedge."
+      },
+      {
+        "title": "Pilot framing",
+        "text": "Turn a broad opportunity into a contained pilot with measurable outcomes."
+      },
+      {
+        "title": "Automation delivery",
+        "text": "Build workflow systems, document pipelines, and internal tools."
+      },
+      {
+        "title": "Technical narrative",
+        "text": "Package the approach so buyers can understand the system and next step."
+      }
+    ]
+  },
+  "proof": {
+    "kicker": "Why this works",
+    "title": "Position the work without pretending to be a giant integrator.",
+    "items": [
+      {
+        "label": "Founder-led",
+        "value": "Senior technical contact",
+        "text": "You are not getting bounced across layers before the work is even scoped."
+      },
+      {
+        "label": "Scoped first",
+        "value": "Pilot-friendly structure",
+        "text": "Lead with a contained problem, a clear output, and a measurable result."
+      },
+      {
+        "label": "Procurement-aware",
+        "value": "Documentation and fit matter",
+        "text": "The page, the form, and the offer all support a cleaner capture motion."
+      }
+    ]
+  },
+  "checklist": {
+    "kicker": "What to send",
+    "title": "The intake should answer four questions.",
+    "items": [
+      {
+        "title": "Who is the buyer?",
+        "text": "Agency, prime, subcontractor, or internal public-sector team."
+      },
+      {
+        "title": "What is the wedge?",
+        "text": "Pilot, proposal support, workflow automation, or internal tool."
+      },
+      {
+        "title": "What is the timing?",
+        "text": "Active pursuit, early capture, or exploratory planning."
+      },
+      {
+        "title": "What must happen next?",
+        "text": "Discovery call, scope draft, technical narrative, or build plan."
+      }
+    ]
+  }
+}

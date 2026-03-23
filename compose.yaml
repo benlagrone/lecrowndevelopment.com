@@ -1,0 +1,41 @@
+services:
+  lecrown-site:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        VITE_AGENT_API_BASE_URL: ${VITE_AGENT_API_BASE_URL:-}
+        VITE_AGENT_SITE_ID: ${VITE_AGENT_SITE_ID:-lecrowndevelopment.com}
+        VITE_AGENT_BOT_ID: ${VITE_AGENT_BOT_ID:-benjamin-lagrone}
+    image: lecrown-site:latest
+    container_name: lecrown-site
+    restart: unless-stopped
+    depends_on:
+      lead-api:
+        condition: service_started
+    ports:
+      - "127.0.0.1:18032:8080"
+
+  lead-api:
+    build:
+      context: ./lead-api
+      dockerfile: Dockerfile
+    image: lecrown-lead-api:latest
+    container_name: lecrown-lead-api
+    restart: unless-stopped
+    environment:
+      PORT: "8081"
+      LEAD_STORAGE_FILE: /data/submissions.ndjson
+    volumes:
+      - lead_intake_data:/data
+    expose:
+      - "8081"
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:8081/health"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 5s
+
+volumes:
+  lead_intake_data:

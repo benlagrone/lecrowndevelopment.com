@@ -1,0 +1,163 @@
+{
+  "hero": {
+    "eyebrow": "AI consultancy / incubator / government-ready",
+    "title": "Build AI systems that move work.",
+    "summary": "LeCrown helps operators, founders, agencies, and primes turn messy processes into software, automation, and launch assets.",
+    "primaryCta": {
+      "label": "Start a project",
+      "to": "/contact"
+    },
+    "secondaryCta": {
+      "label": "Government page",
+      "to": "/government"
+    },
+    "highlights": [
+      "Founder-led delivery",
+      "Scoped pilots",
+      "Software + automation + launch support"
+    ],
+    "visual": {
+      "eyebrow": "System narrative",
+      "title": "From pressure to shipped system.",
+      "items": [
+        {
+          "label": "Consultancy",
+          "value": "Strategy and technical direction"
+        },
+        {
+          "label": "Incubator",
+          "value": "Pilots, venture builds, internal tools"
+        },
+        {
+          "label": "Public sector",
+          "value": "Agency-ready scopes and delivery paths"
+        }
+      ]
+    }
+  },
+  "signals": [
+    {
+      "label": "Positioning",
+      "value": "AI consultancy + incubator"
+    },
+    {
+      "label": "Buyers",
+      "value": "Operators, founders, agencies, primes"
+    },
+    {
+      "label": "Outputs",
+      "value": "Software, automation, AI video"
+    },
+    {
+      "label": "Delivery style",
+      "value": "Fast, scoped, founder-led"
+    }
+  ],
+  "services": [
+    {
+      "title": "AI Automation",
+      "text": "Workflows, copilots, and decision systems.",
+      "to": "/ai-automation",
+      "linkLabel": "See automation capabilities"
+    },
+    {
+      "title": "Custom Development",
+      "text": "Internal tools, portals, and product builds.",
+      "to": "/custom-development",
+      "linkLabel": "View product engineering work"
+    },
+    {
+      "title": "AI Video Systems",
+      "text": "Demos, explainers, and launch assets that show momentum.",
+      "to": "/ai-video",
+      "linkLabel": "Open the AI video page"
+    },
+    {
+      "title": "Government & Prime Contractor Support",
+      "text": "Capture support, pilot framing, and scoped delivery paths.",
+      "to": "/government",
+      "linkLabel": "Open the government page"
+    }
+  ],
+  "diagram": {
+    "kicker": "Automation architecture",
+    "title": "Show the system.",
+    "description": "Technical buyers respond to workflow, inputs, and outcomes.",
+    "steps": [
+      {
+        "title": "Business Data",
+        "text": "CRMs, forms, policies, documents, APIs, and field inputs"
+      },
+      {
+        "title": "AI Models",
+        "text": "Classification, extraction, search, summarization, and reasoning layers"
+      },
+      {
+        "title": "Automation Engine",
+        "text": "Workflow rules, approvals, orchestration, and handoffs"
+      },
+      {
+        "title": "Applications",
+        "text": "Dashboards, portals, internal tools, and public-facing systems"
+      },
+      {
+        "title": "Business Outcomes",
+        "text": "Faster delivery, better visibility, improved win probability"
+      }
+    ]
+  },
+  "tracks": {
+    "kicker": "Engagement tracks",
+    "title": "Three ways in.",
+    "description": "LeCrown needs clean entry points for operators, builders, and government-facing teams.",
+    "items": [
+      {
+        "title": "Operating teams",
+        "text": "Fix manual workflows and stand up internal tools."
+      },
+      {
+        "title": "Incubated products",
+        "text": "Prototype new offers and launch first versions."
+      },
+      {
+        "title": "Agencies and primes",
+        "text": "Shape discovery scopes, pilot plans, and technical narratives."
+      }
+    ]
+  },
+  "proof": {
+    "kicker": "Signals of execution",
+    "title": "Proof without fake enterprise theater.",
+    "description": "Lead with real execution signals, not borrowed credibility.",
+    "items": [
+      {
+        "label": "Founder-led",
+        "value": "Senior technical delivery",
+        "text": "Strategy, architecture, and implementation stay tight."
+      },
+      {
+        "label": "Portfolio-ready",
+        "value": "AI media + product output",
+        "text": "Show the work, not just describe it."
+      },
+      {
+        "label": "Government-aware",
+        "value": "Procurement-friendly framing",
+        "text": "Scopes, pilot phases, and documentation matter."
+      }
+    ]
+  },
+  "cta": {
+    "kicker": "Next move",
+    "title": "Need a builder who can also help you win the room?",
+    "description": "Start with the project, the pilot, or the capture path.",
+    "primary": {
+      "label": "Book an intro",
+      "to": "/contact"
+    },
+    "secondary": {
+      "label": "Government page",
+      "to": "/government"
+    }
+  }
+}
