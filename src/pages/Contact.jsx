@@ -10,23 +10,20 @@ export default function Contact() {
     <div className="page">
       <Hero {...page.hero} />
 
-      <section className="section">
-        <SectionHeading
-          kicker="Engagement types"
-          title="Pick the right path."
-        />
-        <CardGrid items={page.engagements} />
-      </section>
-
       <section className="section" id="lead-form">
         <SectionHeading
-          kicker="Start here"
-          title="Send the note or reach out directly."
-          description="Use the form for a real handoff. Email and phone are here if you want the fastest manual path."
+          kicker="Direct"
+          title="Use the form, email, or call."
+          description="Keep the first note simple: scope, buyer, and timeline."
         />
 
         <div className="intake-grid">
-          <LeadCaptureForm email={site.contact.email} />
+          <LeadCaptureForm
+            email={site.contact.email}
+            heading={page.form.heading}
+            description={page.form.description}
+            submitLabel={page.form.submitLabel}
+          />
 
           <div className="card-grid">
             {page.contacts.map((item) => (
@@ -52,8 +49,8 @@ export default function Contact() {
 
       <section className="section">
         <SectionHeading
-          kicker="Best first-message ingredients"
-          title="What should be in the first note?"
+          kicker="Useful details"
+          title="Include these three things."
         />
         <CardGrid items={page.checklist} />
       </section>

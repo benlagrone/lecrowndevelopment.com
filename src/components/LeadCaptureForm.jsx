@@ -5,8 +5,8 @@ const projectTypes = [
   "AI Automation",
   "Custom Development",
   "AI Video",
-  "Government / Prime Contractor",
-  "Incubation / Venture Build"
+  "Government / Prime Support",
+  "Incubation / New Venture"
 ]
 
 const timelines = [
@@ -32,8 +32,8 @@ export default function LeadCaptureForm({
   email,
   heading = "Send a project note",
   defaultProjectType = "AI Automation",
-  description = "Start with the project, the buyer, and the next move.",
-  submitLabel = "Send project note"
+  description = "Start with the scope, buyer, and timeline.",
+  submitLabel = "Send note"
 }) {
   const [form, setForm] = useState(() => buildInitialState(defaultProjectType))
   const [status, setStatus] = useState("idle")
@@ -88,9 +88,7 @@ export default function LeadCaptureForm({
       <div className="intake-form lead-success">
         <span className="agent-chat-kicker">Submission received</span>
         <h3>{heading}</h3>
-        <p>
-          Your note is in. LeCrown can follow up at the email you provided.
-        </p>
+        <p>Thanks. I received your note and will follow up by email.</p>
         {result?.leadId ? <p className="mono">Lead ID: {result.leadId}</p> : null}
         <div className="cta-actions">
           <button className="button" onClick={resetForm} type="button">
@@ -186,12 +184,12 @@ export default function LeadCaptureForm({
       </div>
 
       <div className="field">
-        <label htmlFor="lead-goals">What are you trying to ship or win?</label>
+        <label htmlFor="lead-goals">What do you need help with?</label>
         <textarea
           id="lead-goals"
           name="goals"
           onChange={handleChange}
-          placeholder="Describe the project, the buyer, the friction, and the next step you need."
+          placeholder="Describe the scope, buyer, current constraint, and desired next step."
           value={form.goals}
         />
       </div>

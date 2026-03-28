@@ -1,8 +1,8 @@
 {
   "hero": {
     "eyebrow": "Contact",
-    "title": "Start with a clean project note.",
-    "summary": "Use the form if you want a real handoff. Email and phone are still here if you want the fastest direct path.",
+    "title": "Start the conversation.",
+    "summary": "If you have a project, subcontracting need, or government opportunity, send a short note with scope, buyer, and timeline.",
     "primaryCta": {
       "label": "Open the form",
       "href": "#lead-form"
@@ -12,80 +12,71 @@
       "href": "mailto:benjamin.lagrone@lecrowndevelopment.com"
     },
     "highlights": [
-      "Real submission form",
+      "Founder-led replies",
       "Commercial and public-sector work",
-      "Founder-led follow-up"
+      "Phone, email, or form"
     ],
     "visual": {
-      "eyebrow": "Best use of the first call",
-      "title": "Clarify the scope, the buyer, and the fastest credible path.",
+      "eyebrow": "Best first note",
+      "title": "Keep it short and concrete.",
       "items": [
         {
-          "label": "Projects",
-          "value": "Automation, software, AI video"
+          "label": "Scope",
+          "value": "What you need built, fixed, or supported"
         },
         {
-          "label": "Buyers",
-          "value": "Agencies, primes, founders, operators"
+          "label": "Buyer",
+          "value": "Agency, prime, client, or internal team"
         },
         {
-          "label": "Outcome",
-          "value": "A scoped next step"
+          "label": "Timeline",
+          "value": "Urgent, this quarter, or exploratory"
         }
       ]
     }
   },
-  "engagements": [
-    {
-      "title": "Discovery sprint",
-      "text": "Map the workflow, the buyer, and the first move."
-    },
-    {
-      "title": "Build engagement",
-      "text": "Move from backlog or idea into implementation."
-    },
-    {
-      "title": "Government / prime support",
-      "text": "Support agency work, subcontracting paths, and technical narratives."
-    }
-  ],
+  "form": {
+    "heading": "Send a project note",
+    "description": "Use the form if you want a written starting point. Email and phone are below if that is faster.",
+    "submitLabel": "Send note"
+  },
   "contacts": [
     {
       "title": "Email",
-      "text": "Share your project, opportunity, or target procurement path.",
+      "text": "Best for project notes, scope, and procurement details.",
       "label": "benjamin.lagrone@lecrowndevelopment.com",
       "href": "mailto:benjamin.lagrone@lecrowndevelopment.com"
     },
     {
       "title": "Phone",
-      "text": "Use this when the opportunity is active and you want a faster conversation.",
+      "text": "Best for active opportunities or scheduled follow-up.",
       "label": "(910) 236-9853",
       "href": "tel:+19102369853"
     },
     {
       "title": "LinkedIn",
-      "text": "Open the public profile and use LinkedIn messaging if your account relationship and settings allow it.",
+      "text": "Use LinkedIn if that is already where the conversation lives.",
       "label": "linkedin.com/in/benjaminlagrone",
       "href": "https://www.linkedin.com/in/benjaminlagrone/"
     },
     {
-      "title": "Government focus",
-      "text": "If public-sector work is the goal, mention the agency, contract path, or prime relationship in the first note.",
-      "label": "Capture-oriented intake"
+      "title": "Government work",
+      "text": "Include the agency, prime, NAICS, vehicle, or procurement stage if you know it.",
+      "label": "Public-sector intake"
     }
   ],
   "checklist": [
     {
-      "title": "What you are trying to build or win",
-      "text": "Product, pilot, proposal, or new offer."
+      "title": "Scope",
+      "text": "What you need built, supported, or pursued."
     },
     {
-      "title": "Who the buyer is",
-      "text": "Internal team, client, agency, or prime."
+      "title": "Buyer",
+      "text": "Client, agency, prime, or internal team."
     },
     {
-      "title": "What has to happen next",
-      "text": "Discovery, pilot scoping, build, or launch."
+      "title": "Timeline",
+      "text": "Urgent, this quarter, or exploratory."
     }
   ]
 }
