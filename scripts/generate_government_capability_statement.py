@@ -32,26 +32,24 @@ MUTED = colors.HexColor("#4F5D6B")
 LINE = colors.HexColor("#CCD7D8")
 
 CORE = [
-    "Enterprise data and AI platform architecture, governance, MLOps and knowledge systems",
-    "Cloud modernization, platform engineering, DevSecOps, infrastructure as code and FinOps",
-    "Custom software, portals, APIs, workflow automation, systems integration and decision support",
-    "Technology strategy, solution architecture, program delivery and operating-model design",
+    "Cybersecurity & data protection — least-privilege access, identity controls, encryption, audit trails, secure cloud design and DevSecOps",
+    "IT modernization & workflow automation — replace manual handoffs and disconnected tools with integrated, measurable software workflows",
+    "AI & data innovation — governed AI, reusable data platforms, MLOps, knowledge systems and human oversight for responsible decisions",
+    "Turnkey systems delivery — discovery, system design, engineering, integration, deployment, documentation and knowledge transfer",
 ]
 
 EXPERIENCE = [
-    ("Sysco | Enterprise Data & AI Platform Architecture (Key Personnel, 2024-present)",
-     "Designed governed cloud-platform patterns, self-service provisioning, identity and policy controls, reusable delivery capabilities and operating-model guidance for enterprise data and AI teams."),
-    ("LeCrown Development | Secure Digital Portals & Automation (2025-present)",
-     "Architected and delivered client portals, authenticated document workflows, intake automation, service integrations and containerized cloud deployments from discovery through production."),
-    ("Energy & Industrial Enterprises | Cloud, Data & Application Delivery (Key Personnel)",
-     "Led solution architecture, software delivery, integration and modernization initiatives in asset-intensive, regulated operating environments with globally distributed stakeholders."),
+    ("Sysco | Fortune 100 Food Distribution (Subcontractor through Revolution Technologies, 2024-present)",
+     "Entrusted with enterprise data and AI platform delivery in a high-volume operating environment. Designed secure self-service patterns, role-based access, policy controls and auditable workflows that help teams deliver faster without weakening protection of company data."),
+    ("Energy & Industrial (ExxonMobil, Shell, bp, SLB, McDermott and Oceaneering)",
+     "Served major corporations as a subcontractor through Cynet Systems, PTG, Accenture and Avanade. Simplified complex business and technical requirements, connected data and applications, and delivered cloud, software and automation improvements that reduced manual work, cost and operational risk."),
 ]
 
 DIFFERENTIATORS = [
-    "50% cycle and cost reduction achieved through automated data-pipeline delivery.",
-    "$20M+ in program value protected through architecture and quality governance.",
-    "30% delivery improvement achieved through Agile and DevOps transformation.",
-    "75% cost savings achieved through targeted business-process automation.",
+    ("SECURE BY DESIGN", "Cybersecurity is built into access, data handling, deployment and auditability—not added after delivery. This reduces exposure and makes systems easier to govern."),
+    ("CAPABILITY SEED METHOD", "Start with one high-value workflow, prove it securely, document the pattern and reuse it. Each engagement leaves a repeatable capability—not a one-off prototype."),
+    ("MEASURABLE EFFICIENCY", "Documented engagements achieved 50% cycle and cost reduction, 30% delivery improvement, 75% process-cost savings and protected $20M+ in program value."),
+    ("COMPLEXITY MADE CLEAR", "Translate cyber, data, AI and policy requirements into plain-language decisions, working software, operator guidance and accountable handoff."),
 ]
 
 DATA = [
@@ -71,16 +69,16 @@ def styles():
     return {
         "title": ParagraphStyle("title", fontName="Helvetica-Bold", fontSize=16, leading=17, textColor=NAVY),
         "company": ParagraphStyle("company", fontName="Times-Bold", fontSize=18, leading=19, textColor=NAVY),
-        "tag": ParagraphStyle("tag", fontName="Helvetica", fontSize=7.5, leading=9.5, textColor=MUTED),
-        "contact": ParagraphStyle("contact", fontName="Helvetica", fontSize=7.2, leading=10, textColor=MUTED, alignment=TA_RIGHT),
+        "tag": ParagraphStyle("tag", fontName="Helvetica", fontSize=8.0, leading=10, textColor=MUTED),
+        "contact": ParagraphStyle("contact", fontName="Helvetica", fontSize=7.6, leading=10.5, textColor=MUTED, alignment=TA_RIGHT),
         "section": ParagraphStyle("section", fontName="Helvetica-Bold", fontSize=9.2, leading=11, textColor=colors.white),
-        "body": ParagraphStyle("body", fontName="Helvetica", fontSize=8.1, leading=11.2, textColor=NAVY),
-        "bullet": ParagraphStyle("bullet", fontName="Helvetica", fontSize=7.8, leading=10.7, leftIndent=9, firstLineIndent=-7, textColor=NAVY),
-        "exp_title": ParagraphStyle("exp_title", fontName="Helvetica-Bold", fontSize=7.5, leading=9.4, textColor=BLUE),
-        "exp_body": ParagraphStyle("exp_body", fontName="Helvetica", fontSize=7.2, leading=9.5, textColor=MUTED),
-        "data_label": ParagraphStyle("data_label", fontName="Helvetica-Bold", fontSize=7.2, leading=8.8, textColor=BLUE),
-        "data_value": ParagraphStyle("data_value", fontName="Helvetica", fontSize=7.0, leading=8.8, textColor=NAVY),
-        "footer": ParagraphStyle("footer", fontName="Helvetica", fontSize=6.5, leading=8.2, textColor=MUTED),
+        "body": ParagraphStyle("body", fontName="Helvetica", fontSize=8.8, leading=12.2, textColor=NAVY),
+        "bullet": ParagraphStyle("bullet", fontName="Helvetica", fontSize=8.35, leading=11.5, leftIndent=9, firstLineIndent=-7, textColor=NAVY),
+        "exp_title": ParagraphStyle("exp_title", fontName="Helvetica-Bold", fontSize=8.3, leading=10.3, textColor=BLUE),
+        "exp_body": ParagraphStyle("exp_body", fontName="Helvetica", fontSize=7.8, leading=10.2, textColor=MUTED),
+        "data_label": ParagraphStyle("data_label", fontName="Helvetica-Bold", fontSize=7.7, leading=9.4, textColor=BLUE),
+        "data_value": ParagraphStyle("data_value", fontName="Helvetica", fontSize=7.5, leading=9.4, textColor=NAVY),
+        "footer": ParagraphStyle("footer", fontName="Helvetica", fontSize=6.9, leading=8.6, textColor=MUTED),
     }
 
 
@@ -106,7 +104,7 @@ def build_pdf():
     content_width = 7.78 * inch
     logo = Image(str(LOGO), width=0.62*inch, height=0.62*inch)
     identity = [p("LeCrown Development", s["company"]), p("ENTERPRISE AI • DATA PLATFORMS • CLOUD ENGINEERING • DIGITAL SYSTEMS", s["tag"])]
-    contact = Paragraph("Benjamin LaGrone  |  Founder &amp; Principal Technology Consultant<br/>"
+    contact = Paragraph("Benjamin LaGrone  |  Principal Technology Consultant<br/>"
                         "Houston, TX 77024  |  (910) 236-9853<br/>"
                         "benjamin.lagrone@lecrowndevelopment.com  |  lecrowndevelopment.com", s["contact"])
     head = Table([[logo, identity, contact]], colWidths=[0.72*inch, 3.55*inch, 3.51*inch])
@@ -122,7 +120,7 @@ def build_pdf():
                                ("BOTTOMPADDING", (0, 0), (-1, -1), 6)]))
     story += [title, Spacer(1, 0.1*inch)]
 
-    intro = p("LeCrown Development designs and delivers governed enterprise technology that moves complex initiatives from strategy to secure, measurable operation. Founder-led execution combines architecture, engineering and delivery leadership in one accountable team.", s["body"])
+    intro = p("We help agencies and prime contractors protect sensitive data, reduce operating cost and replace manual work with secure, auditable software and AI-enabled workflows. Fortune 100 companies have entrusted our key personnel to deliver complex data and technology initiatives from requirements through turnkey operation.", s["body"])
 
     left_w, right_w = 4.83*inch, 2.83*inch
     core = [section_header("Core Competencies", left_w, s), Spacer(1, 0.05*inch), intro, Spacer(1, 0.05*inch)] + bullet_list(CORE, s)
@@ -133,8 +131,10 @@ def build_pdf():
                                     ("TOPPADDING", (0, 0), (-1, -1), 3.5), ("BOTTOMPADDING", (0, 0), (-1, -1), 3.5)]))
     company_data = [section_header("Company Data", right_w, s), Spacer(1, 0.05*inch), data_table,
                     Spacer(1, 0.06*inch), p("Credentials", s["exp_title"]),
-                    p("Azure Data Fundamentals • Azure Databricks Platform Architect • Scrum Master Certified • B.S., University of Houston", s["exp_body"])]
-    top = Table([[core, company_data]], colWidths=[left_w, right_w], rowHeights=[2.72*inch], hAlign="LEFT")
+                    p("Azure Data Fundamentals • Azure Databricks Platform Architect • Scrum Master Certified • B.S., University of Houston", s["exp_body"]),
+                    Spacer(1, 0.05*inch), p("Book & Publications", s["exp_title"]),
+                    p("Author, HTML5 and CSS3 Responsive Web Design Cookbook (Packt) • Technical publications and OSDU contributions", s["exp_body"])]
+    top = Table([[core, company_data]], colWidths=[left_w, right_w], rowHeights=[2.98*inch], hAlign="LEFT")
     top.setStyle(TableStyle([("VALIGN", (0, 0), (-1, -1), "TOP"), ("LEFTPADDING", (0, 0), (0, 0), 0),
                              ("RIGHTPADDING", (0, 0), (0, 0), 7), ("LEFTPADDING", (1, 0), (1, 0), 7),
                              ("RIGHTPADDING", (1, 0), (1, 0), 0), ("LINEBEFORE", (1, 0), (1, 0), 0.5, LINE),
@@ -143,17 +143,16 @@ def build_pdf():
     exp_cells = []
     for title_text, body_text in EXPERIENCE:
         exp_cells.append([p(title_text, s["exp_title"]), p(body_text, s["exp_body"])])
-    exp = Table([exp_cells], colWidths=[content_width/3]*3, rowHeights=[1.32*inch])
+    exp = Table([exp_cells], colWidths=[content_width/2]*2, rowHeights=[1.34*inch])
     exp.setStyle(TableStyle([("VALIGN", (0, 0), (-1, -1), "TOP"), ("BACKGROUND", (0, 0), (-1, -1), colors.white),
                              ("BOX", (0, 0), (-1, -1), 0.45, LINE), ("INNERGRID", (0, 0), (-1, -1), 0.45, LINE),
                              ("LEFTPADDING", (0, 0), (-1, -1), 7), ("RIGHTPADDING", (0, 0), (-1, -1), 7),
                              ("TOPPADDING", (0, 0), (-1, -1), 6), ("BOTTOMPADDING", (0, 0), (-1, -1), 6)]))
     story += [exp, Spacer(1, 0.11*inch), section_header("Differentiators — Documented Delivery Outcomes", content_width, s), Spacer(1, 0.05*inch)]
     diff_cells = []
-    for item in DIFFERENTIATORS:
-        value, text = item.split(" ", 1)
-        diff_cells.append([p(value, ParagraphStyle("metric", parent=s["title"], fontSize=15, leading=16, textColor=TEAL)), p(text, s["exp_body"])])
-    diff = Table([diff_cells], colWidths=[content_width/4]*4, rowHeights=[0.82*inch])
+    for title_text, body_text in DIFFERENTIATORS:
+        diff_cells.append([p(title_text, ParagraphStyle("metric", parent=s["exp_title"], fontSize=8.2, leading=9.6, textColor=TEAL)), p(body_text, s["exp_body"])])
+    diff = Table([diff_cells], colWidths=[content_width/4]*4, rowHeights=[1.03*inch])
     diff.setStyle(TableStyle([("VALIGN", (0, 0), (-1, -1), "MIDDLE"), ("BACKGROUND", (0, 0), (-1, -1), PALE),
                               ("BOX", (0, 0), (-1, -1), 0.5, TEAL), ("INNERGRID", (0, 0), (-1, -1), 0.4, LINE),
                               ("LEFTPADDING", (0, 0), (-1, -1), 7), ("RIGHTPADDING", (0, 0), (-1, -1), 7),
@@ -161,7 +160,7 @@ def build_pdf():
     readiness = Table([
         [p("TECHNOLOGY ENVIRONMENT", s["data_label"]), p("DELIVERY READINESS", s["data_label"])],
         [p("GCP • Azure • AWS • Databricks • Snowflake • Kubernetes • Terraform • ServiceNow • Kafka • Python • FastAPI • React", s["exp_body"]),
-         p("Discovery • Architecture • MVP/Pilot • Modernization • Integration • Documentation • Production deployment • Knowledge transfer", s["exp_body"])],
+         p("Discovery • System design • MVP/Pilot • Modernization • Integration • Documentation • Production deployment • Knowledge transfer", s["exp_body"])],
     ], colWidths=[content_width/2]*2, rowHeights=[0.24*inch, 0.52*inch])
     readiness.setStyle(TableStyle([("VALIGN", (0, 0), (-1, -1), "TOP"), ("BACKGROUND", (0, 0), (-1, -1), CREAM),
                                    ("BOX", (0, 0), (-1, -1), 0.45, LINE), ("LINEBEFORE", (1, 0), (1, -1), 0.45, LINE),
@@ -178,7 +177,7 @@ def build_pdf():
         canvas.rect(0, 0, letter[0], 0.2*inch, fill=1, stroke=0)
         canvas.setFillColor(colors.white)
         canvas.setFont("Helvetica-Bold", 6.3)
-        canvas.drawCentredString(letter[0] / 2, 0.075*inch, "LECROWN DEVELOPMENT  •  FOUNDER-LED ENTERPRISE TECHNOLOGY DELIVERY  •  LECROWNDEVELOPMENT.COM")
+        canvas.drawCentredString(letter[0] / 2, 0.075*inch, "LECROWN DEVELOPMENT  •  SECURE ENTERPRISE TECHNOLOGY DELIVERY  •  LECROWNDEVELOPMENT.COM")
         canvas.restoreState()
 
     doc.build(story, onFirstPage=draw_page)
@@ -231,27 +230,27 @@ def build_docx():
     brand_tag = brand_cell.add_paragraph().add_run("ENTERPRISE AI • DATA PLATFORMS • CLOUD ENGINEERING")
     brand_tag.bold, brand_tag.font.name, brand_tag.font.size = True, "Arial", Pt(7.5)
     brand_tag.font.color.rgb = RGBColor.from_string("4F5D6B")
-    set_cell(header.cell(0, 2), "Benjamin LaGrone | Founder & Principal Technology Consultant\nHouston, TX 77024 | (910) 236-9853\nbenjamin.lagrone@lecrowndevelopment.com | lecrowndevelopment.com", False, "4F5D6B", 7)
+    set_cell(header.cell(0, 2), "Benjamin LaGrone | Principal Technology Consultant\nHouston, TX 77024 | (910) 236-9853\nbenjamin.lagrone@lecrowndevelopment.com | lecrowndevelopment.com", False, "4F5D6B", 7.5)
     header.cell(0, 2).paragraphs[0].alignment = WD_ALIGN_PARAGRAPH.RIGHT
     title = d.add_paragraph()
     title.alignment = WD_ALIGN_PARAGRAPH.CENTER
     r = title.add_run("CAPABILITY STATEMENT")
     r.bold, r.font.name, r.font.size, r.font.color.rgb = True, "Arial", Pt(17), RGBColor.from_string("0F1726")
     add_heading(d, "Core Competencies")
-    d.add_paragraph("LeCrown Development designs and delivers governed enterprise technology that moves complex initiatives from strategy to secure, measurable operation. Founder-led execution combines architecture, engineering and delivery leadership in one accountable team.")
+    d.add_paragraph("We help agencies and prime contractors protect sensitive data, reduce operating cost and replace manual work with secure, auditable software and AI-enabled workflows. Fortune 100 companies have entrusted our key personnel to deliver complex data and technology initiatives from requirements through turnkey operation.")
     for item in CORE:
         para = d.add_paragraph(style=None)
         para.paragraph_format.left_indent = Inches(.12)
         para.paragraph_format.first_line_indent = Inches(-.1)
         para.add_run("• " + item)
     add_heading(d, "Company Experience")
-    exp = d.add_table(rows=1, cols=3)
+    exp = d.add_table(rows=1, cols=2)
     for i, (heading, body) in enumerate(EXPERIENCE):
         set_cell(exp.cell(0, i), heading + "\n" + body, False, "0F1726", 7)
     add_heading(d, "Differentiators — Documented Delivery Outcomes")
     dif = d.add_table(rows=1, cols=4)
-    for i, item in enumerate(DIFFERENTIATORS):
-        set_cell(dif.cell(0, i), item, True, "073C57", 8)
+    for i, (heading, body) in enumerate(DIFFERENTIATORS):
+        set_cell(dif.cell(0, i), heading + "\n" + body, False, "073C57", 7.5)
         dif.cell(0, i)._tc.get_or_add_tcPr().append(_shade("EAF5F3"))
     add_heading(d, "Company Data")
     data = d.add_table(rows=len(DATA), cols=2)
@@ -259,6 +258,7 @@ def build_docx():
         set_cell(data.cell(i, 0), k, True, "073C57", 7)
         set_cell(data.cell(i, 1), v, False, "0F1726", 7)
     d.add_paragraph("Credentials: Azure Data Fundamentals • Azure Databricks Platform Architect • Scrum Master Certified • B.S., University of Houston")
+    d.add_paragraph("Book & Publications: Author, HTML5 and CSS3 Responsive Web Design Cookbook (Packt) • Technical publications and OSDU contributions")
     foot = d.add_paragraph("Selected outcomes reflect documented key-personnel engagements. References and supporting detail are available for qualified opportunities. LeCrown Development is available for prime, subcontract and teaming engagements.")
     foot.runs[0].font.size = Pt(6)
     foot.runs[0].font.color.rgb = RGBColor.from_string("4F5D6B")

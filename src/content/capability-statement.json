@@ -1,32 +1,32 @@
 {
-  "headline": "Enterprise AI, data platforms, and digital systems - built to operate.",
-  "summary": "LeCrown Development brings founder-led architecture and delivery to complex enterprise initiatives. We connect strategy, governance, cloud platforms, data, AI, and product engineering so organizations can move from intent to a secure, measurable operating capability.",
+  "headline": "Secure technology that cuts cost, protects data, and makes work simpler.",
+  "summary": "We help agencies and prime contractors replace manual work with secure, auditable software and AI-enabled workflows. Our key personnel have been entrusted by Fortune 100 companies to turn complex requirements into turnkey systems people can operate, monitor, and improve.",
   "snapshot": [
     { "value": "25+", "label": "Years delivering enterprise technology" },
     { "value": "Houston", "label": "Texas-based, globally experienced" },
-    { "value": "Founder-led", "label": "Senior attention from strategy through delivery" },
+    { "value": "Turnkey", "label": "Requirements through secure operation and handoff" },
     { "value": "Global", "label": "Distributed team leadership across the Americas, Europe, and Asia" }
   ],
   "capabilities": [
     {
       "number": "01",
-      "title": "AI & data platforms",
-      "text": "Governed AI enablement, MLOps, semantic data foundations, RAG and knowledge systems, model lifecycle controls, and scalable data engineering."
+      "title": "Cybersecurity & data protection",
+      "text": "Least-privilege access, identity controls, encryption, audit trails, secure cloud design, DevSecOps, and zero-trust-aligned practices that protect sensitive information and reduce exposure."
     },
     {
       "number": "02",
-      "title": "Cloud & platform engineering",
-      "text": "Self-service provisioning, internal developer platforms, cloud modernization, Kubernetes, infrastructure as code, CI/CD, observability, and FinOps controls."
+      "title": "IT modernization & workflow automation",
+      "text": "Replace manual handoffs, spreadsheets, and disconnected tools with integrated software workflows, APIs, cloud platforms, and measurable operating controls."
     },
     {
       "number": "03",
-      "title": "Enterprise architecture & governance",
-      "text": "Operating models, solution and data architecture, identity and policy integration, metadata lineage, security-minded controls, and governance-by-engineering."
+      "title": "AI & data innovation",
+      "text": "Governed AI, reusable data platforms, MLOps, knowledge systems, traceable data, and human oversight that turn information into responsible, practical decisions."
     },
     {
       "number": "04",
-      "title": "Custom digital systems",
-      "text": "Web and mobile products, workflow automation, integration services, portals, IoT and digital twins, GIS workflows, and decision-support applications."
+      "title": "Turnkey systems delivery",
+      "text": "Discovery, system design, custom software, integration, cloud deployment, documentation, training, and knowledge transfer—from requirement to accountable handoff."
     }
   ],
   "outcomes": [
@@ -46,20 +46,20 @@
   ],
   "differentiators": [
     {
-      "title": "Strategy with implementation depth",
-      "text": "Executive framing is backed by hands-on architecture, engineering, and delivery experience."
+      "title": "Security built in from the start",
+      "text": "Cybersecurity is designed into access, data handling, deployment, monitoring, and auditability—not added after delivery. This lowers cyber and operational risk."
     },
     {
-      "title": "Governance built into the platform",
-      "text": "Identity, policy, metadata, telemetry, security, and cost controls become part of how systems operate."
+      "title": "Capability Seed Method",
+      "text": "Start with one high-value workflow, prove it securely, document the reusable pattern, and expand. Every engagement leaves a repeatable capability rather than a one-off prototype."
     },
     {
-      "title": "Enterprise scale, practical increments",
-      "text": "Work is structured into credible, testable slices that produce visible proof and reduce delivery risk."
+      "title": "Documented efficiency gains",
+      "text": "Key-personnel engagements achieved 50% cycle and cost reduction, 30% delivery improvement, 75% process-cost savings, and protected more than $20 million in program value."
     },
     {
-      "title": "Global delivery leadership",
-      "text": "Experience aligning distributed stakeholders and engineering teams across cultures, vendors, and time zones."
+      "title": "Complexity made clear",
+      "text": "We translate cyber, data, AI, and policy requirements into plain-language decisions, working software, operator guidance, and an accountable handoff."
     }
   ],
   "credentials": [
@@ -68,7 +68,8 @@
     "Azure Databricks Platform Architect",
     "Scrum Master and Scrum Fundamentals certified",
     "MIT edX verified certificate in innovation",
-    "Published author and OSDU contributor"
+    "Author, HTML5 and CSS3 Responsive Web Design Cookbook (Packt)",
+    "Technical publications and OSDU contributor"
   ],
   "technologies": [
     "GCP",
