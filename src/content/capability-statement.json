@@ -1,0 +1,101 @@
+{
+  "headline": "Enterprise AI, data platforms, and digital systems - built to operate.",
+  "summary": "LeCrown Development brings founder-led architecture and delivery to complex enterprise initiatives. We connect strategy, governance, cloud platforms, data, AI, and product engineering so organizations can move from intent to a secure, measurable operating capability.",
+  "snapshot": [
+    { "value": "25+", "label": "Years delivering enterprise technology" },
+    { "value": "Houston", "label": "Texas-based, globally experienced" },
+    { "value": "Founder-led", "label": "Senior attention from strategy through delivery" },
+    { "value": "Global", "label": "Distributed team leadership across the Americas, Europe, and Asia" }
+  ],
+  "capabilities": [
+    {
+      "number": "01",
+      "title": "AI & data platforms",
+      "text": "Governed AI enablement, MLOps, semantic data foundations, RAG and knowledge systems, model lifecycle controls, and scalable data engineering."
+    },
+    {
+      "number": "02",
+      "title": "Cloud & platform engineering",
+      "text": "Self-service provisioning, internal developer platforms, cloud modernization, Kubernetes, infrastructure as code, CI/CD, observability, and FinOps controls."
+    },
+    {
+      "number": "03",
+      "title": "Enterprise architecture & governance",
+      "text": "Operating models, solution and data architecture, identity and policy integration, metadata lineage, security-minded controls, and governance-by-engineering."
+    },
+    {
+      "number": "04",
+      "title": "Custom digital systems",
+      "text": "Web and mobile products, workflow automation, integration services, portals, IoT and digital twins, GIS workflows, and decision-support applications."
+    }
+  ],
+  "outcomes": [
+    { "value": "50%", "text": "Cycle and cost reduction through automated data pipelines" },
+    { "value": "$20M+", "text": "Program value protected through architecture and quality governance" },
+    { "value": "30%", "text": "Delivery improvement through Agile and DevOps transformation" },
+    { "value": "75%", "text": "Cost savings from business-process automation" }
+  ],
+  "industries": [
+    "Food distribution",
+    "Energy",
+    "Industrials",
+    "Healthcare",
+    "Benefits",
+    "Research",
+    "Real estate"
+  ],
+  "differentiators": [
+    {
+      "title": "Strategy with implementation depth",
+      "text": "Executive framing is backed by hands-on architecture, engineering, and delivery experience."
+    },
+    {
+      "title": "Governance built into the platform",
+      "text": "Identity, policy, metadata, telemetry, security, and cost controls become part of how systems operate."
+    },
+    {
+      "title": "Enterprise scale, practical increments",
+      "text": "Work is structured into credible, testable slices that produce visible proof and reduce delivery risk."
+    },
+    {
+      "title": "Global delivery leadership",
+      "text": "Experience aligning distributed stakeholders and engineering teams across cultures, vendors, and time zones."
+    }
+  ],
+  "credentials": [
+    "B.S. Economics, University of Houston",
+    "Microsoft Azure and Azure Data certified",
+    "Azure Databricks Platform Architect",
+    "Scrum Master and Scrum Fundamentals certified",
+    "MIT edX verified certificate in innovation",
+    "Published author and OSDU contributor"
+  ],
+  "technologies": [
+    "GCP",
+    "Azure",
+    "AWS",
+    "Snowflake",
+    "Databricks",
+    "Kubernetes",
+    "Terraform",
+    "ServiceNow",
+    "Kafka",
+    "Python",
+    "FastAPI",
+    "React"
+  ],
+  "experience": [
+    { "name": "Sysco", "className": "wordmark-sysco" },
+    { "name": "ExxonMobil", "className": "wordmark-exxon" },
+    { "name": "Shell", "className": "wordmark-shell" },
+    { "name": "bp", "className": "wordmark-bp" },
+    { "name": "SLB", "className": "wordmark-slb" },
+    { "name": "Accenture", "className": "wordmark-accenture" },
+    { "name": "Avanade", "className": "wordmark-avanade" },
+    { "name": "McDermott", "className": "wordmark-mcdermott" },
+    { "name": "Oceaneering", "className": "wordmark-oceaneering" },
+    { "name": "MD Anderson", "className": "wordmark-mdanderson" },
+    { "name": "Baylor College of Medicine", "className": "wordmark-baylor" },
+    { "name": "Empyrean Benefit Solutions", "className": "wordmark-empyrean" }
+  ]
+}

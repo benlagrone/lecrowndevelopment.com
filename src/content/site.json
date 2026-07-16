@@ -21,20 +21,12 @@
       "to": "/ai-automation"
     },
     {
-      "label": "Custom Development",
-      "to": "/custom-development"
-    },
-    {
-      "label": "AI Video",
-      "to": "/ai-video"
-    },
-    {
-      "label": "Strategic Advisory",
-      "to": "/services/strategic-advisory"
-    },
-    {
       "label": "About",
       "to": "/about"
+    },
+    {
+      "label": "Capabilities",
+      "to": "/capability-statement"
     },
     {
       "label": "Contact",

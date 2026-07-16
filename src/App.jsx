@@ -16,6 +16,7 @@ import AIAutomation from "./pages/AIAutomation"
 import CustomDevelopment from "./pages/CustomDevelopment"
 import AIVideo from "./pages/AIVideo"
 import StrategicAdvisory from "./pages/StrategicAdvisory"
+import CapabilityStatement from "./pages/CapabilityStatement"
 import About from "./pages/About"
 import Contact from "./pages/Contact"
 import PortalRoot, {
@@ -31,6 +32,7 @@ const pageTitles = {
   "/ai-automation": "AI Automation | LeCrown Development",
   "/ai-video": "AI Video | LeCrown Development",
   "/contact": "Contact | LeCrown Development",
+  "/capability-statement": "Capability Statement | LeCrown Development",
   "/custom-development": "Custom Development | LeCrown Development",
   "/government": "Government | LeCrown Development",
   "/services": "Services | LeCrown Development",
@@ -40,11 +42,15 @@ const pageTitles = {
 }
 
 const pageDescriptions = {
+  "/capability-statement":
+    "LeCrown Development capability statement for enterprise AI, data platforms, cloud engineering, architecture, governance, and custom digital systems.",
   "/services/strategic-advisory":
     "Strategic advisory, corporate consulting, business evaluation, economics consulting, M&A advisory, due diligence, and commercial property evaluation for business and transaction decisions."
 }
 
 const pageKeywords = {
+  "/capability-statement":
+    "LeCrown Development capability statement, enterprise AI consulting, data platform engineering, cloud platform engineering, enterprise architecture, AI governance, Houston technology consulting",
   "/services/strategic-advisory":
     "strategic advisory consulting, corporate consulting services, business evaluation consulting, economics consulting, mergers and acquisitions advisory, due diligence consulting, commercial property evaluation, business assessment services, transaction advisory services, investment analysis consulting, Houston business consulting, Texas strategic advisory"
 }
@@ -115,6 +121,7 @@ export default function App() {
               element={<CustomDevelopment />}
             />
             <Route path="/ai-video" element={<AIVideo />} />
+            <Route path="/capability-statement" element={<CapabilityStatement />} />
             <Route path="/services" element={<Solutions />} />
             <Route
               path="/services/strategic-advisory"

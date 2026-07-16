@@ -109,6 +109,29 @@ img {
   min-width: 0;
 }
 
+.nav-menu-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 2.75rem;
+  padding: 0.65rem 0.9rem;
+  border: 0;
+  border-radius: 999px;
+  background: var(--bg-deep);
+  color: white;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.nav-menu-toggle svg {
+  width: 1.1rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: 2;
+}
+
 .brand-lockup {
   display: inline-flex;
   align-items: center;
@@ -139,12 +162,12 @@ img {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: flex-end;
 }
 
 .nav-links a {
-  padding: 0.7rem 1rem;
+  padding: 0.65rem 0.78rem;
   border-radius: 999px;
   color: var(--text-soft);
   transition:
@@ -182,6 +205,387 @@ img {
   transform: translateY(-1px);
   background: #0a1120;
   box-shadow: 0 18px 32px rgba(15, 23, 38, 0.18);
+}
+
+.capability-page {
+  padding-top: 2.2rem;
+}
+
+.capability-hero {
+  position: relative;
+  min-height: 35rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(24rem, 0.95fr);
+  align-items: center;
+  overflow: hidden;
+  border-bottom: 1px solid var(--line);
+}
+
+.capability-hero-copy {
+  position: relative;
+  z-index: 2;
+  padding: clamp(2rem, 4vw, 3.4rem) 0;
+}
+
+.capability-hero h1,
+.capability-section-title h2,
+.capability-contact h2,
+.capability-snapshot h2 {
+  margin: 0;
+  font-family: var(--headline);
+  line-height: 0.98;
+  letter-spacing: -0.045em;
+}
+
+.capability-hero h1 {
+  max-width: 15ch;
+  font-size: clamp(3rem, 5.5vw, 4.75rem);
+}
+
+.capability-hero-copy > p {
+  max-width: 63ch;
+  margin: 1.5rem 0 0;
+  color: var(--text-soft);
+  font-size: 1.08rem;
+  line-height: 1.75;
+}
+
+.capability-hero .button svg,
+.capability-hero .button-secondary svg,
+.capability-contact-button svg {
+  width: 1.1rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+
+.capability-hero-art {
+  position: relative;
+  align-self: stretch;
+  min-height: 34rem;
+  perspective: 900px;
+}
+
+.capability-hero-art::after {
+  content: "";
+  position: absolute;
+  inset: 18% -15% 4% 4%;
+  background: radial-gradient(ellipse, rgba(14, 80, 91, 0.2), transparent 66%);
+  filter: blur(24px);
+}
+
+.glass-plane {
+  position: absolute;
+  bottom: 3rem;
+  border: 2px solid rgba(20, 94, 105, 0.62);
+  border-radius: 2rem 2rem 0.5rem 0.5rem;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.52), rgba(70, 217, 207, 0.19));
+  box-shadow: 0 28px 55px rgba(15, 23, 38, 0.15), inset 0 0 30px rgba(255, 255, 255, 0.38);
+  transform: rotateY(-10deg) rotateX(2deg);
+}
+
+.glass-plane-a { left: 2%; width: 28%; height: 34%; }
+.glass-plane-b { left: 23%; width: 34%; height: 62%; }
+.glass-plane-c { left: 52%; width: 36%; height: 82%; }
+.glass-plane-d {
+  right: -10%;
+  width: 38%;
+  height: 50%;
+  border-color: rgba(167, 190, 17, 0.72);
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.45), rgba(212, 255, 85, 0.3));
+}
+
+.capability-snapshot {
+  position: relative;
+  z-index: 3;
+  display: grid;
+  grid-template-columns: 1.15fr repeat(4, 1fr);
+  gap: 0;
+  margin-top: -0.8rem;
+  padding: 1.6rem;
+  border: 1px solid rgba(15, 23, 38, 0.1);
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(14px);
+}
+
+.capability-snapshot h2 {
+  align-self: center;
+  padding-right: 1.2rem;
+  font-size: 1.6rem;
+}
+
+.capability-snapshot div {
+  min-height: 6.3rem;
+  display: grid;
+  align-content: center;
+  gap: 0.45rem;
+  padding: 0.6rem 1.3rem;
+  border-left: 1px solid rgba(15, 23, 38, 0.12);
+}
+
+.capability-snapshot strong {
+  font-family: var(--headline);
+  font-size: 1.55rem;
+}
+
+.capability-snapshot span,
+.capability-list p,
+.outcome-grid p,
+.differentiator-grid p,
+.experience-logos p {
+  color: var(--text-soft);
+  line-height: 1.6;
+}
+
+.capability-section,
+.capability-industries,
+.capability-credentials,
+.experience-logos {
+  padding: clamp(4rem, 8vw, 7rem) 0;
+}
+
+.capability-section-open {
+  display: grid;
+  grid-template-columns: minmax(12rem, 0.35fr) minmax(0, 1fr);
+  gap: clamp(2rem, 5vw, 6rem);
+}
+
+.capability-section-title h2 {
+  font-size: clamp(2.2rem, 4vw, 4rem);
+}
+
+.capability-section-title > span {
+  display: block;
+  width: 3rem;
+  height: 3px;
+  margin-top: 1.1rem;
+  background: #a7be11;
+}
+
+.capability-list article {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 1.25rem;
+  align-items: center;
+  padding: 1.45rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.capability-number {
+  display: grid;
+  place-items: center;
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 50%;
+  background: rgba(70, 217, 207, 0.13);
+  color: #0c7781;
+  font-weight: 800;
+}
+
+.capability-list h3,
+.differentiator-grid h3 {
+  margin: 0;
+  font-family: var(--headline);
+  font-size: 1.55rem;
+}
+
+.capability-list p,
+.differentiator-grid p,
+.outcome-grid p {
+  margin: 0.45rem 0 0;
+}
+
+.capability-list svg {
+  width: 2rem;
+  fill: none;
+  stroke: #91aa00;
+  stroke-width: 1.5;
+}
+
+.capability-outcomes {
+  display: grid;
+  grid-template-columns: minmax(12rem, 0.35fr) minmax(0, 1fr);
+  gap: clamp(2rem, 5vw, 6rem);
+  margin-inline: calc(50% - 50vw);
+  padding: clamp(3rem, 6vw, 5rem) max(1rem, calc((100vw - 1160px) / 2));
+  border-block: 1px solid rgba(70, 217, 207, 0.25);
+  background: rgba(224, 248, 246, 0.44);
+}
+
+.outcome-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.outcome-grid article {
+  padding: 0 1.5rem;
+  border-left: 1px solid rgba(15, 23, 38, 0.12);
+}
+
+.outcome-grid strong {
+  display: block;
+  color: #08828c;
+  font-family: var(--headline);
+  font-size: clamp(2.7rem, 5vw, 4.4rem);
+  line-height: 1;
+}
+
+.capability-industries {
+  display: grid;
+  grid-template-columns: minmax(12rem, 0.35fr) minmax(0, 1fr);
+  gap: clamp(2rem, 5vw, 6rem);
+  border-bottom: 1px solid var(--line);
+}
+
+.industry-rail {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+
+.industry-rail span {
+  min-height: 7rem;
+  display: grid;
+  align-content: center;
+  gap: 0.8rem;
+  padding: 0.8rem 1rem;
+  border-left: 1px solid var(--line);
+  text-align: center;
+}
+
+.industry-rail b {
+  color: #0b828c;
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+}
+
+.capability-differentiators {
+  display: grid;
+  grid-template-columns: minmax(12rem, 0.35fr) minmax(0, 1fr);
+  gap: clamp(2rem, 5vw, 6rem);
+}
+
+.differentiator-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+}
+
+.differentiator-grid article {
+  padding-top: 1.25rem;
+  border-top: 2px solid rgba(15, 23, 38, 0.12);
+}
+
+.capability-credentials {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 3rem;
+  border-top: 1px solid var(--line);
+}
+
+.capability-credentials .capability-section-title h2 {
+  font-size: 2.5rem;
+}
+
+.capability-credentials ul {
+  margin: 1.5rem 0 0;
+  padding-left: 1.2rem;
+  color: var(--text-soft);
+  line-height: 1.8;
+}
+
+.technology-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.technology-cloud span {
+  padding: 0.75rem 1rem;
+  border: 1px solid rgba(15, 23, 38, 0.1);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.64);
+  font-weight: 700;
+}
+
+.capability-contact {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(14rem, 0.7fr) auto;
+  gap: 2rem;
+  align-items: center;
+  padding: clamp(2rem, 4vw, 3.5rem);
+  border-radius: var(--radius-md);
+  background: linear-gradient(135deg, #071c37, #064e68);
+  color: white;
+  box-shadow: var(--shadow);
+}
+
+.capability-contact h2 { font-size: clamp(2rem, 4vw, 3.2rem); }
+.capability-contact p { margin: 0.8rem 0 0; color: rgba(255,255,255,.72); line-height: 1.6; }
+.capability-contact-details { display: grid; gap: 0.55rem; color: rgba(255,255,255,.82); }
+.capability-contact-button { background: var(--lime); color: var(--bg-deep); white-space: nowrap; }
+
+.experience-logos h2 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 0 2.2rem;
+  color: var(--text-soft);
+  font-size: 0.78rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.experience-logos h2::before,
+.experience-logos h2::after {
+  content: "";
+  height: 1px;
+  flex: 1;
+  background: var(--line);
+}
+
+.logo-rail {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.company-wordmark {
+  min-height: 4.5rem;
+  display: grid;
+  place-items: center;
+  padding: 0.75rem;
+  color: #3f4b59;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.05rem;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  text-align: center;
+  filter: grayscale(1);
+}
+
+.wordmark-sysco { font-size: 1.55rem; font-style: italic; }
+.wordmark-exxon { font-size: 1.35rem; letter-spacing: -0.08em; }
+.wordmark-shell { font-family: var(--headline); font-size: 1.45rem; }
+.wordmark-bp { font-size: 1.8rem; font-weight: 500; text-transform: lowercase; }
+.wordmark-slb { font-size: 1.65rem; font-weight: 500; text-transform: lowercase; }
+.wordmark-accenture { font-size: 1.25rem; text-transform: lowercase; }
+.wordmark-avanade { font-size: 1.3rem; font-weight: 500; text-transform: lowercase; }
+.wordmark-mcdermott { font-size: 1.15rem; letter-spacing: -0.06em; text-transform: uppercase; }
+.wordmark-oceaneering { padding-inline: 0.4rem; text-transform: uppercase; }
+.wordmark-mdanderson { font-family: Georgia, serif; font-weight: 500; }
+.wordmark-baylor { font-family: Georgia, serif; font-size: 0.95rem; }
+.wordmark-empyrean { font-size: 0.82rem; letter-spacing: 0.08em; text-transform: uppercase; }
+
+.experience-logos > p {
+  max-width: 80ch;
+  margin: 1.6rem auto 0;
+  font-size: 0.75rem;
+  text-align: center;
 }
 
 .page {
@@ -2064,6 +2468,23 @@ img {
     grid-template-columns: 1fr;
   }
 
+  .capability-hero,
+  .capability-section-open,
+  .capability-outcomes,
+  .capability-industries,
+  .capability-differentiators,
+  .capability-contact {
+    grid-template-columns: 1fr;
+  }
+
+  .capability-hero-art { min-height: 25rem; }
+  .capability-snapshot { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .capability-snapshot h2 { grid-column: 1 / -1; padding: 0 0 1rem; }
+  .capability-snapshot div:nth-of-type(odd) { border-left: 0; }
+  .outcome-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem 0; }
+  .industry-rail { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .logo-rail { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+
   .diagram-grid,
   .advisory-card-lists,
   .portal-grid,
@@ -2089,18 +2510,32 @@ img {
   .site-nav {
     border-radius: 1.3rem;
     padding: 1rem;
-    align-items: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
   }
 
   .nav-links {
     width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     justify-content: flex-start;
   }
 
   .site-nav-actions {
+    display: none;
     width: 100%;
     flex-direction: column;
     align-items: stretch;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .site-nav-open .site-nav-actions {
+    display: flex;
+  }
+
+  .nav-menu-toggle {
+    display: inline-flex;
   }
 
   .nav-portal-link {
@@ -2146,4 +2581,21 @@ img {
   .portal-page {
     width: min(1240px, calc(100vw - 1rem));
   }
+
+  .capability-hero { min-height: auto; }
+  .capability-hero h1 { font-size: clamp(2.7rem, 13vw, 4.5rem); }
+  .capability-hero-art { min-height: 20rem; }
+  .capability-snapshot,
+  .capability-credentials,
+  .differentiator-grid { grid-template-columns: 1fr; }
+  .capability-snapshot div { border-left: 0; border-top: 1px solid var(--line); }
+  .outcome-grid,
+  .industry-rail,
+  .logo-rail { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .outcome-grid article:nth-child(odd),
+  .industry-rail span:nth-child(odd) { border-left: 0; }
+  .capability-list article { grid-template-columns: auto minmax(0, 1fr); }
+  .capability-list article > svg { display: none; }
+  .capability-contact { align-items: stretch; }
+  .capability-contact-button { width: 100%; }
 }
