@@ -7,6 +7,11 @@ services:
         VITE_AGENT_API_BASE_URL: ${VITE_AGENT_API_BASE_URL:-}
         VITE_AGENT_SITE_ID: ${VITE_AGENT_SITE_ID:-lecrowndevelopment.com}
         VITE_AGENT_BOT_ID: ${VITE_AGENT_BOT_ID:-benjamin-lagrone}
+        VITE_PORTAL_DISABLE_AUTH: ${VITE_PORTAL_DISABLE_AUTH:-true}
+        VITE_PORTAL_KEYCLOAK_URL: ${VITE_PORTAL_KEYCLOAK_URL:-https://auth.pericopeai.com}
+        VITE_PORTAL_KEYCLOAK_REALM: ${VITE_PORTAL_KEYCLOAK_REALM:-lecrown-portal}
+        VITE_PORTAL_KEYCLOAK_CLIENT_ID: ${VITE_PORTAL_KEYCLOAK_CLIENT_ID:-lecrown-portal-web}
+        VITE_PORTAL_DEFAULT_PROJECT_ID: ${VITE_PORTAL_DEFAULT_PROJECT_ID:-northstar-automation}
     image: lecrown-site:latest
     container_name: lecrown-site
     restart: unless-stopped
@@ -26,6 +31,48 @@ services:
     environment:
       PORT: "8081"
       LEAD_STORAGE_FILE: /data/submissions.ndjson
+      PORTAL_STORAGE_FILE: /data/portal-data.json
+      PORTAL_DOCUMENTS_DIR: /data/portal-documents
+      PORTAL_DOCUMENT_PROVIDER: ${PORTAL_DOCUMENT_PROVIDER:-local}
+      PORTAL_DRIVE_ROOT_FOLDER_ID: ${PORTAL_DRIVE_ROOT_FOLDER_ID:-}
+      PORTAL_DRIVE_CLIENT_ID: ${PORTAL_DRIVE_CLIENT_ID:-}
+      PORTAL_DRIVE_CLIENT_SECRET: ${PORTAL_DRIVE_CLIENT_SECRET:-}
+      PORTAL_DRIVE_REFRESH_TOKEN: ${PORTAL_DRIVE_REFRESH_TOKEN:-}
+      PORTAL_DRIVE_TOKEN_URL: ${PORTAL_DRIVE_TOKEN_URL:-https://oauth2.googleapis.com/token}
+      PORTAL_DRIVE_API_BASE_URL: ${PORTAL_DRIVE_API_BASE_URL:-https://www.googleapis.com/drive/v3}
+      PORTAL_DRIVE_UPLOAD_BASE_URL: ${PORTAL_DRIVE_UPLOAD_BASE_URL:-https://www.googleapis.com/upload/drive/v3}
+      KEYCLOAK_AUTH_ENFORCED: ${KEYCLOAK_AUTH_ENFORCED:-false}
+      KEYCLOAK_ISSUER: ${KEYCLOAK_ISSUER:-https://auth.pericopeai.com/realms/lecrown-portal}
+      KEYCLOAK_JWKS_URL: ${KEYCLOAK_JWKS_URL:-https://auth.pericopeai.com/realms/lecrown-portal/protocol/openid-connect/certs}
+      KEYCLOAK_AUDIENCES: ${KEYCLOAK_AUDIENCES:-lecrown-portal-web,account}
+      PORTAL_KEYCLOAK_REALM: ${PORTAL_KEYCLOAK_REALM:-lecrown-portal}
+      KEYCLOAK_ADMIN_BASE_URL: ${KEYCLOAK_ADMIN_BASE_URL:-https://auth.pericopeai.com}
+      KEYCLOAK_ADMIN_REALM: ${KEYCLOAK_ADMIN_REALM:-master}
+      KEYCLOAK_ADMIN_CLIENT_ID: ${KEYCLOAK_ADMIN_CLIENT_ID:-admin-cli}
+      KEYCLOAK_ADMIN_USERNAME: ${KEYCLOAK_ADMIN_USERNAME:-}
+      KEYCLOAK_ADMIN_PASSWORD: ${KEYCLOAK_ADMIN_PASSWORD:-}
+      PORTAL_INVITE_CLIENT_ID: ${PORTAL_INVITE_CLIENT_ID:-lecrown-portal-web}
+      PORTAL_INVITE_REDIRECT_URI: ${PORTAL_INVITE_REDIRECT_URI:-https://lecrowndevelopment.com/portal/login}
+      PORTAL_DEV_EMAIL: ${PORTAL_DEV_EMAIL:-admin@lecrowndevelopment.com}
+      PORTAL_DEV_NAME: ${PORTAL_DEV_NAME:-Local Portal Admin}
+      PORTAL_DEV_ROLES: ${PORTAL_DEV_ROLES:-admin}
+      PORTAL_INVITE_EMAIL_PROVIDER: ${PORTAL_INVITE_EMAIL_PROVIDER:-portal-smtp}
+      PORTAL_ACCESS_MANAGER_EMAIL: ${PORTAL_ACCESS_MANAGER_EMAIL:-benjaminlagrone@gmail.com}
+      PORTAL_PUBLIC_BASE_URL: ${PORTAL_PUBLIC_BASE_URL:-https://lecrowndevelopment.com}
+      PORTAL_SMTP_HOST: ${PORTAL_SMTP_HOST:-mail.lecrowndevelopment.com}
+      PORTAL_SMTP_PORT: ${PORTAL_SMTP_PORT:-465}
+      PORTAL_SMTP_SECURE: ${PORTAL_SMTP_SECURE:-true}
+      PORTAL_SMTP_AUTH_REQUIRED: ${PORTAL_SMTP_AUTH_REQUIRED:-}
+      PORTAL_SMTP_USER: ${PORTAL_SMTP_USER:-no-reply@lecrowndevelopment.com}
+      PORTAL_SMTP_PASSWORD: ${PORTAL_SMTP_PASSWORD:-}
+      PORTAL_SMTP_FROM: ${PORTAL_SMTP_FROM:-no-reply@lecrowndevelopment.com}
+      PORTAL_SMTP_FROM_NAME: ${PORTAL_SMTP_FROM_NAME:-LeCrown Client Portal}
+      PORTAL_SMTP_REPLY_TO: ${PORTAL_SMTP_REPLY_TO:-benjamin@lecrownproperties.com}
+      BILLING_PROJECT: ${BILLING_PROJECT:-lecrowndev}
+      BILLING_SERVICE_URL: ${BILLING_SERVICE_URL:-https://billing.lecrowndevelopment.com}
+      BILLING_SERVICE_API_KEY: ${BILLING_SERVICE_API_KEY:-}
+      STRIPE_CHECKOUT_SUCCESS_URL: ${STRIPE_CHECKOUT_SUCCESS_URL:-https://lecrowndevelopment.com/portal}
+      STRIPE_CHECKOUT_CANCEL_URL: ${STRIPE_CHECKOUT_CANCEL_URL:-https://lecrowndevelopment.com/portal}
     volumes:
       - lead_intake_data:/data
     expose:

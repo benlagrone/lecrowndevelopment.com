@@ -1,8 +1,8 @@
 {
   "hero": {
-    "eyebrow": "Solutions overview",
-    "title": "Clear solution lines for systems, launch, and capture.",
-    "summary": "LeCrown is organized around a few entry points: automation, software, launch assets, and government-facing support.",
+    "eyebrow": "Services overview",
+    "title": "Clear practice areas for technology, data, software, cloud, and advisory work.",
+    "summary": "LeCrown is organized around consulting lines that support systems, operational decisions, transactions, launch assets, and government-facing work.",
     "primaryCta": {
       "label": "Discuss your project",
       "to": "/contact"
@@ -18,51 +18,53 @@
     ],
     "visual": {
       "eyebrow": "Buyer clarity",
-      "title": "A simpler map with stronger signal.",
+      "title": "A broader consulting map with stronger signal.",
       "items": [
         {
-          "label": "AI systems",
-          "value": "Automation, assistants, decision support"
+          "label": "Technology",
+          "value": "Architecture, systems, AI, and product delivery"
         },
         {
-          "label": "Engineering",
-          "value": "Products, portals, integrations, APIs"
+          "label": "Advisory",
+          "value": "Business, investment, and transaction analysis"
         },
         {
-          "label": "Growth assets",
-          "value": "Video, messaging, launch materials"
+          "label": "Execution",
+          "value": "Software, cloud, launch assets, and scoped delivery"
         }
       ]
     }
   },
   "categories": [
     {
-      "title": "AI Automation",
-      "text": "Copilots, document workflows, and decision systems.",
-      "to": "/ai-automation",
-      "linkLabel": "Explore AI automation"
-    },
-    {
-      "title": "Custom Development",
-      "text": "Internal tools, portals, integrations, and product builds.",
+      "title": "Technology Consulting",
+      "text": "Architecture, technical strategy, automation planning, system evaluation, and practical technology roadmaps.",
       "to": "/custom-development",
-      "linkLabel": "Open custom development"
+      "linkLabel": "Explore technology work"
     },
     {
-      "title": "AI Video",
-      "text": "Demos, explainers, launch assets, and social proof.",
-      "to": "/ai-video",
-      "linkLabel": "View AI video systems"
+      "title": "Data & AI Solutions",
+      "text": "Copilots, document workflows, decision systems, data workflows, and applied AI automation.",
+      "to": "/ai-automation",
+      "linkLabel": "Explore data and AI"
     },
     {
-      "title": "Project Incubation",
-      "text": "Offers, prototypes, MVPs, and first-launch support."
+      "title": "Software Development",
+      "text": "Internal tools, portals, integrations, APIs, product builds, and workflow applications.",
+      "to": "/custom-development",
+      "linkLabel": "Open software development"
     },
     {
-      "title": "Government / Prime Support",
-      "text": "Discovery, pilot framing, capture support, and technical narratives.",
-      "to": "/government",
-      "linkLabel": "Open government support"
+      "title": "Cloud & Infrastructure",
+      "text": "Deployment planning, cloud architecture, technical operations, integrations, and infrastructure support.",
+      "to": "/custom-development",
+      "linkLabel": "Discuss cloud work"
+    },
+    {
+      "title": "Strategic Advisory",
+      "text": "Corporate consulting, business evaluation, economics consulting, M&A advisory, due diligence, and asset evaluation.",
+      "to": "/services/strategic-advisory",
+      "linkLabel": "Open strategic advisory"
     }
   ],
   "industries": [

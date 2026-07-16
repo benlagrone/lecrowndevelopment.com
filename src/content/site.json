@@ -13,8 +13,8 @@
       "to": "/government"
     },
     {
-      "label": "Solutions",
-      "to": "/solutions"
+      "label": "Services",
+      "to": "/services"
     },
     {
       "label": "AI Automation",
@@ -29,6 +29,10 @@
       "to": "/ai-video"
     },
     {
+      "label": "Strategic Advisory",
+      "to": "/services/strategic-advisory"
+    },
+    {
       "label": "About",
       "to": "/about"
     },
@@ -37,6 +41,10 @@
       "to": "/contact"
     }
   ],
+  "portalCta": {
+    "label": "Client Portal",
+    "to": "/portal/login"
+  },
   "contact": {
     "email": "benjamin.lagrone@lecrowndevelopment.com",
     "phone": "(910) 236-9853",

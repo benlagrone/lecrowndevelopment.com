@@ -12,17 +12,25 @@ export default function Navbar() {
         </span>
       </NavLink>
 
-      <nav className="nav-links" aria-label="Primary">
-        {site.navigation.map((item) => (
-          <NavLink
-            key={item.to}
-            to={item.to}
-            className={({ isActive }) => (isActive ? "active" : undefined)}
-          >
-            {item.label}
+      <div className="site-nav-actions">
+        <nav className="nav-links" aria-label="Primary">
+          {site.navigation.map((item) => (
+            <NavLink
+              key={item.to}
+              to={item.to}
+              className={({ isActive }) => (isActive ? "active" : undefined)}
+            >
+              {item.label}
+            </NavLink>
+          ))}
+        </nav>
+
+        {site.portalCta ? (
+          <NavLink className="nav-portal-link" to={site.portalCta.to}>
+            {site.portalCta.label}
           </NavLink>
-        ))}
-      </nav>
+        ) : null}
+      </div>
     </header>
   )
 }

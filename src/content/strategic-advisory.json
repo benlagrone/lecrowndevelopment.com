@@ -1,0 +1,208 @@
+{
+  "hero": {
+    "eyebrow": "Strategic Advisory",
+    "title": "Strategic Advisory for Business, Investment, and Transaction Decisions",
+    "summary": "Helping business owners, investors, attorneys, stakeholders, and organizations evaluate opportunities, risks, transactions, and growth strategies through independent analysis and practical recommendations.",
+    "primaryCta": {
+      "label": "Request Consultation",
+      "href": "#advisory-intake"
+    },
+    "secondaryCta": {
+      "label": "Schedule Discovery Call",
+      "to": "/contact"
+    },
+    "highlights": [
+      "Business evaluation",
+      "Transaction support",
+      "Independent advisory analysis"
+    ],
+    "visual": {
+      "eyebrow": "Decision support",
+      "title": "Independent analysis for commercial judgment.",
+      "items": [
+        {
+          "label": "Business",
+          "value": "Performance, risk, growth, and readiness"
+        },
+        {
+          "label": "Transactions",
+          "value": "Due diligence, M&A review, and asset context"
+        },
+        {
+          "label": "Markets",
+          "value": "Economic, industry, and investment analysis"
+        }
+      ]
+    }
+  },
+  "overview": [
+    "LeCrown Development provides strategic advisory services designed to support critical business, investment, operational, and transaction-related decisions.",
+    "Our approach combines business analysis, economic assessment, technology expertise, operational review, and market research to provide stakeholders with actionable insights and recommendations."
+  ],
+  "serviceAreas": [
+    {
+      "title": "Corporate Consulting",
+      "text": "Support for organizations facing growth, restructuring, operational, technology, or strategic challenges.",
+      "services": [
+        "Executive Advisory",
+        "Strategic Planning",
+        "Organizational Assessment",
+        "Operational Improvement",
+        "Technology Strategy",
+        "Growth Planning",
+        "Business Transformation"
+      ]
+    },
+    {
+      "title": "Business Evaluation & Assessment",
+      "text": "Independent analysis designed to help stakeholders understand business performance, opportunities, and risks.",
+      "services": [
+        "Business Reviews",
+        "Operational Analysis",
+        "Revenue Assessment",
+        "Profitability Assessment",
+        "Market Position Analysis",
+        "Competitive Analysis",
+        "Growth Opportunity Identification",
+        "Exit Planning Support"
+      ],
+      "secondaryLabel": "Typical use cases",
+      "secondary": [
+        "Business Sale Preparation",
+        "Partner Buyouts",
+        "Investor Reviews",
+        "Strategic Planning",
+        "Ownership Transitions"
+      ]
+    },
+    {
+      "title": "Economics Consulting",
+      "text": "Analytical support for organizations requiring economic, market, and investment insights.",
+      "services": [
+        "Market Research",
+        "Industry Analysis",
+        "Economic Impact Studies",
+        "Feasibility Studies",
+        "Cost-Benefit Analysis",
+        "Investment Analysis",
+        "Demand Forecasting",
+        "Competitive Landscape Assessment",
+        "Business Case Development"
+      ],
+      "secondaryLabel": "Typical clients",
+      "secondary": [
+        "Business Owners",
+        "Investors",
+        "Developers",
+        "Attorneys",
+        "Financial Stakeholders"
+      ]
+    },
+    {
+      "title": "Mergers & Acquisitions Advisory",
+      "text": "Support throughout acquisition, disposition, and transaction evaluation efforts.",
+      "services": [
+        "Acquisition Target Assessment",
+        "Preliminary Due Diligence",
+        "Transaction Readiness",
+        "Asset Review",
+        "Opportunity Assessment",
+        "Risk Identification",
+        "Stakeholder Coordination"
+      ],
+      "secondaryLabel": "Engagement types",
+      "secondary": [
+        "Buy-Side Advisory",
+        "Sell-Side Preparation",
+        "Strategic Acquisition Reviews",
+        "Business Purchase Evaluation"
+      ]
+    },
+    {
+      "title": "Due Diligence & Transaction Support",
+      "text": "Independent review and analysis of business and asset information during transactions.",
+      "services": [
+        "Documentation Review",
+        "Asset Evaluation",
+        "Business Review",
+        "Risk Assessment",
+        "Opportunity Analysis",
+        "Transaction Support"
+      ]
+    },
+    {
+      "title": "Property & Asset Evaluation",
+      "text": "Strategic evaluation services for commercial and investment assets.",
+      "services": [
+        "Commercial Property Review",
+        "Warehouse & Industrial Property Analysis",
+        "Asset Performance Assessment",
+        "Market Position Evaluation",
+        "Listing Preparation Support",
+        "Investment Property Analysis",
+        "Development Opportunity Assessment"
+      ],
+      "disclaimer": "This service provides advisory evaluations and strategic assessments. It is not represented as a licensed appraisal service where formal appraisals are legally required."
+    }
+  ],
+  "clients": [
+    "Business Owners",
+    "Commercial Property Owners",
+    "Investors",
+    "Family Offices",
+    "Attorneys",
+    "Lenders",
+    "Courts and Court-Appointed Stakeholders",
+    "Buyers and Sellers",
+    "Development Firms"
+  ],
+  "process": [
+    {
+      "title": "Initial Consultation",
+      "text": "Clarify the decision, stakeholders, timeline, and desired outcome."
+    },
+    {
+      "title": "Information Gathering",
+      "text": "Collect documents, financial context, operational details, and market inputs."
+    },
+    {
+      "title": "Research & Analysis",
+      "text": "Evaluate risks, opportunities, assumptions, economics, and practical constraints."
+    },
+    {
+      "title": "Recommendations & Deliverables",
+      "text": "Provide findings, recommendations, and next-step options matched to the engagement."
+    }
+  ],
+  "deliverables": [
+    "Executive Summary",
+    "Business Assessment Report",
+    "Economic Analysis",
+    "Market Research Findings",
+    "Asset Evaluation Summary",
+    "Due Diligence Findings",
+    "Strategic Recommendations",
+    "Transaction Readiness Assessment"
+  ],
+  "pricing": {
+    "title": "Engagements are customized.",
+    "text": "Engagements are customized based on scope, complexity, and objectives. Contact us for a consultation and proposal."
+  },
+  "form": {
+    "heading": "Request Consultation",
+    "description": "Share the decision, transaction, asset, or business question you need evaluated."
+  },
+  "cta": {
+    "kicker": "Private consultation",
+    "title": "Need an independent view before the next decision?",
+    "description": "Start with the business question, transaction context, and timeline. Pricing and scope can be discussed privately.",
+    "primary": {
+      "label": "Request Consultation",
+      "href": "#advisory-intake"
+    },
+    "secondary": {
+      "label": "Contact LeCrown",
+      "to": "/contact"
+    }
+  }
+}

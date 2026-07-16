@@ -1,0 +1,14 @@
+{
+  "name": "lecrown-lead-api",
+  "private": true,
+  "scripts": {
+    "workspace:dead-letter": "node google-workspace-dead-letter.mjs",
+    "import:portal-package": "node import-portal-package.mjs",
+    "test": "node --test"
+  },
+  "type": "module",
+  "dependencies": {
+    "jose": "^5.9.6",
+    "nodemailer": "^8.0.5"
+  }
+}

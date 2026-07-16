@@ -31,8 +31,10 @@ export default function Hero({
   highlights = [],
   visual
 }) {
+  const heroClassName = title.length > 64 ? "hero hero-long-title" : "hero"
+
   return (
-    <section className="hero">
+    <section className={heroClassName}>
       <div className="hero-copy">
         <span className="hero-kicker">{eyebrow}</span>
         <h1>{title}</h1>
