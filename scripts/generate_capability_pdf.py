@@ -16,6 +16,7 @@ from reportlab.platypus import (
     BaseDocTemplate,
     Flowable,
     Frame,
+    Image,
     KeepTogether,
     PageBreak,
     PageTemplate,
@@ -29,6 +30,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "src" / "content" / "capability-statement.json"
 OUTPUT = ROOT / "output" / "pdf" / "lecrown-development-capability-statement.pdf"
 PUBLIC = ROOT / "public" / "downloads" / "lecrown-development-capability-statement.pdf"
+LOGO_DIR = ROOT / "public" / "client-partner-logos" / "pdf"
 
 NAVY = colors.HexColor("#0F1726")
 DEEP_BLUE = colors.HexColor("#073C57")
@@ -139,9 +141,9 @@ def build_styles():
             "metric", parent=styles["BodyText"], fontName="Times-Bold", fontSize=20,
             leading=21, textColor=TEAL, alignment=TA_CENTER,
         ),
-        "wordmark": ParagraphStyle(
-            "wordmark", parent=styles["BodyText"], fontName="Helvetica-Bold", fontSize=9,
-            leading=10, textColor=colors.HexColor("#485462"), alignment=TA_CENTER,
+        "logo_status": ParagraphStyle(
+            "logo_status", parent=styles["BodyText"], fontName="Helvetica-Bold", fontSize=5.2,
+            leading=6, textColor=DEEP_BLUE, tracking=1, alignment=TA_CENTER,
         ),
     }
 
@@ -154,6 +156,20 @@ def section_heading(title, styles):
         ])),
         Spacer(1, 0.12 * inch),
     ])
+
+
+def client_partner_mark(item, styles):
+    logo_path = LOGO_DIR / f"{Path(item['logo']).stem}.png"
+    logo = Image(str(logo_path))
+    max_width = 0.96 * inch
+    max_height = 0.28 * inch if item.get("logoClass") else 0.22 * inch
+    scale = min(max_width / logo.imageWidth, max_height / logo.imageHeight)
+    logo.drawWidth = logo.imageWidth * scale
+    logo.drawHeight = logo.imageHeight * scale
+    mark = [logo]
+    if item.get("status"):
+        mark += [Spacer(1, 0.025 * inch), paragraph(item["status"].upper(), styles["logo_status"])]
+    return mark
 
 
 def make_doc(path):
@@ -283,16 +299,18 @@ def build_story(data, styles):
         ("LEFTPADDING", (0, 0), (-1, -1), 14), ("RIGHTPADDING", (0, 0), (-1, -1), 14),
         ("TOPPADDING", (0, 0), (-1, -1), 12), ("BOTTOMPADDING", (0, 0), (-1, -1), 12),
     ]))
-    story += [contact, Spacer(1, 0.24 * inch), paragraph("EXPERIENCE ACROSS", styles["label"]), Spacer(1, 0.08 * inch)]
+    story += [contact, Spacer(1, 0.24 * inch), paragraph("CLIENT PARTNERS", styles["label"]), Spacer(1, 0.08 * inch)]
 
-    marks = [paragraph(item["name"], styles["wordmark"]) for item in data["experience"]]
-    logo_table = Table([marks[:6], marks[6:]], colWidths=[7 * inch / 6] * 6, rowHeights=[0.35 * inch, 0.35 * inch])
+    marks = [client_partner_mark(item, styles) for item in data["experience"]]
+    marks += [""] * (12 - len(marks))
+    logo_table = Table([marks[:6], marks[6:]], colWidths=[7 * inch / 6] * 6, rowHeights=[0.42 * inch, 0.42 * inch])
     logo_table.setStyle(TableStyle([
         ("VALIGN", (0, 0), (-1, -1), "MIDDLE"), ("ALIGN", (0, 0), (-1, -1), "CENTER"),
         ("TOPPADDING", (0, 0), (-1, -1), 4), ("BOTTOMPADDING", (0, 0), (-1, -1), 4),
     ]))
     story += [logo_table, Spacer(1, 0.07 * inch), paragraph(
-        "Company marks identify organizations listed in Benjamin LaGrone's professional experience; no endorsement or affiliation is implied.",
+        "Company marks identify client and partner organizations represented in Benjamin LaGrone's resume and project history. "
+        "'Former' denotes prior Accenture and Avanade experience; no current endorsement is implied.",
         ParagraphStyle("legal", parent=styles["small"], fontSize=5.8, alignment=TA_CENTER),
     )]
     return story

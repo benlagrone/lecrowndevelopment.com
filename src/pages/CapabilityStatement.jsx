@@ -148,15 +148,20 @@ export default function CapabilityStatement() {
       </section>
 
       <section className="experience-logos" aria-labelledby="experience-title">
-        <h2 id="experience-title"><span>Experience across</span></h2>
+        <h2 id="experience-title"><span>Client partners</span></h2>
         <div className="logo-rail">
           {capability.experience.map((company) => (
-            <div className={`company-wordmark ${company.className}`} key={company.name} aria-label={company.name}>
-              {company.name}
+            <div className="client-partner" key={company.name}>
+              <img
+                className={company.logoClass || undefined}
+                src={company.logo}
+                alt={`${company.name} logo`}
+              />
+              {company.status && <span>{company.status}</span>}
             </div>
           ))}
         </div>
-        <p>Company marks identify organizations listed in Benjamin LaGrone&apos;s professional experience; no endorsement or affiliation is implied.</p>
+        <p>Company marks identify client and partner organizations represented in Benjamin LaGrone&apos;s resume and project history. “Former” denotes prior Accenture and Avanade experience; no current endorsement is implied.</p>
       </section>
     </div>
   )

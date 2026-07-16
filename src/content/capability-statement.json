@@ -85,17 +85,16 @@
     "React"
   ],
   "experience": [
-    { "name": "Sysco", "className": "wordmark-sysco" },
-    { "name": "ExxonMobil", "className": "wordmark-exxon" },
-    { "name": "Shell", "className": "wordmark-shell" },
-    { "name": "bp", "className": "wordmark-bp" },
-    { "name": "SLB", "className": "wordmark-slb" },
-    { "name": "Accenture", "className": "wordmark-accenture" },
-    { "name": "Avanade", "className": "wordmark-avanade" },
-    { "name": "McDermott", "className": "wordmark-mcdermott" },
-    { "name": "Oceaneering", "className": "wordmark-oceaneering" },
-    { "name": "MD Anderson", "className": "wordmark-mdanderson" },
-    { "name": "Baylor College of Medicine", "className": "wordmark-baylor" },
-    { "name": "Empyrean Benefit Solutions", "className": "wordmark-empyrean" }
+    { "name": "Sysco", "logo": "/client-partner-logos/sysco.svg" },
+    { "name": "ExxonMobil", "logo": "/client-partner-logos/exxonmobil.svg" },
+    { "name": "Shell", "logo": "/client-partner-logos/shell.svg" },
+    { "name": "bp", "logo": "/client-partner-logos/bp.png", "logoClass": "client-partner-logo-square" },
+    { "name": "SLB", "logo": "/client-partner-logos/slb.svg", "logoClass": "client-partner-logo-square" },
+    { "name": "McDermott", "logo": "/client-partner-logos/mcdermott.svg" },
+    { "name": "Oceaneering", "logo": "/client-partner-logos/oceaneering.svg" },
+    { "name": "MD Anderson", "logo": "/client-partner-logos/md-anderson.png" },
+    { "name": "Baylor College of Medicine", "logo": "/client-partner-logos/baylor-college-of-medicine.svg", "logoClass": "client-partner-logo-square" },
+    { "name": "Accenture", "logo": "/client-partner-logos/accenture.svg", "status": "Former" },
+    { "name": "Avanade", "logo": "/client-partner-logos/avanade.svg", "status": "Former" }
   ]
 }

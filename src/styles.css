@@ -554,32 +554,38 @@ img {
   gap: 1rem;
 }
 
-.company-wordmark {
+.client-partner {
   min-height: 4.5rem;
   display: grid;
   place-items: center;
+  align-content: center;
+  gap: 0.5rem;
   padding: 0.75rem;
-  color: #3f4b59;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.05rem;
-  font-weight: 800;
-  letter-spacing: -0.04em;
   text-align: center;
-  filter: grayscale(1);
 }
 
-.wordmark-sysco { font-size: 1.55rem; font-style: italic; }
-.wordmark-exxon { font-size: 1.35rem; letter-spacing: -0.08em; }
-.wordmark-shell { font-family: var(--headline); font-size: 1.45rem; }
-.wordmark-bp { font-size: 1.8rem; font-weight: 500; text-transform: lowercase; }
-.wordmark-slb { font-size: 1.65rem; font-weight: 500; text-transform: lowercase; }
-.wordmark-accenture { font-size: 1.25rem; text-transform: lowercase; }
-.wordmark-avanade { font-size: 1.3rem; font-weight: 500; text-transform: lowercase; }
-.wordmark-mcdermott { font-size: 1.15rem; letter-spacing: -0.06em; text-transform: uppercase; }
-.wordmark-oceaneering { padding-inline: 0.4rem; text-transform: uppercase; }
-.wordmark-mdanderson { font-family: Georgia, serif; font-weight: 500; }
-.wordmark-baylor { font-family: Georgia, serif; font-size: 0.95rem; }
-.wordmark-empyrean { font-size: 0.82rem; letter-spacing: 0.08em; text-transform: uppercase; }
+.client-partner img {
+  width: auto;
+  max-width: 100%;
+  height: 2.25rem;
+  object-fit: contain;
+}
+
+.client-partner img.client-partner-logo-square {
+  height: 2.75rem;
+}
+
+.client-partner > span {
+  padding: 0.18rem 0.45rem;
+  border: 1px solid rgba(7, 60, 87, 0.2);
+  border-radius: 999px;
+  color: var(--deep-blue);
+  font-size: 0.58rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  line-height: 1;
+  text-transform: uppercase;
+}
 
 .experience-logos > p {
   max-width: 80ch;
