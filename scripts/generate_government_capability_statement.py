@@ -32,10 +32,10 @@ MUTED = colors.HexColor("#4F5D6B")
 LINE = colors.HexColor("#CCD7D8")
 
 CORE = [
-    "Cybersecurity & data protection — least-privilege access, identity controls, encryption, audit trails, secure cloud design and DevSecOps",
-    "IT modernization & workflow automation — replace manual handoffs and disconnected tools with integrated, measurable software workflows",
-    "AI & data innovation — governed AI, reusable data platforms, MLOps, knowledge systems and human oversight for responsible decisions",
-    "Turnkey systems delivery — discovery, system design, engineering, integration, deployment, documentation and knowledge transfer",
+    "Cybersecurity, Zero Trust & Data Protection — secure identity and access, least privilege, encryption, audit trails, DevSecOps and risk controls that protect sensitive information",
+    "IT Modernization, Integration & Cost Reduction — automate manual work, connect legacy and cloud systems, eliminate redundant steps and measure operating savings",
+    "AI, Data Platforms & Responsible Innovation — governed data foundations, MLOps, knowledge systems, lineage and human oversight that make AI useful, secure and accountable",
+    "Turnkey Software & Cloud Delivery — requirements, system and software design, custom applications, APIs, infrastructure as code, testing, deployment, training and knowledge transfer",
 ]
 
 EXPERIENCE = [
@@ -120,7 +120,7 @@ def build_pdf():
                                ("BOTTOMPADDING", (0, 0), (-1, -1), 6)]))
     story += [title, Spacer(1, 0.1*inch)]
 
-    intro = p("We help agencies and prime contractors protect sensitive data, reduce operating cost and replace manual work with secure, auditable software and AI-enabled workflows. Fortune 100 companies have entrusted our key personnel to deliver complex data and technology initiatives from requirements through turnkey operation.", s["body"])
+    intro = p("LeCrown turns complex government and enterprise requirements into secure, cost-saving systems that are ready to operate. Fortune 100 companies have entrusted our key personnel to protect sensitive data, streamline critical work and deliver technology from first requirement through production and handoff. Agencies and prime contractors gain one accountable partner that can simplify the problem, build the solution and leave behind a capability their teams can sustain.", s["body"])
 
     left_w, right_w = 4.83*inch, 2.83*inch
     core = [section_header("Core Competencies", left_w, s), Spacer(1, 0.05*inch), intro, Spacer(1, 0.05*inch)] + bullet_list(CORE, s)
@@ -237,7 +237,7 @@ def build_docx():
     r = title.add_run("CAPABILITY STATEMENT")
     r.bold, r.font.name, r.font.size, r.font.color.rgb = True, "Arial", Pt(17), RGBColor.from_string("0F1726")
     add_heading(d, "Core Competencies")
-    d.add_paragraph("We help agencies and prime contractors protect sensitive data, reduce operating cost and replace manual work with secure, auditable software and AI-enabled workflows. Fortune 100 companies have entrusted our key personnel to deliver complex data and technology initiatives from requirements through turnkey operation.")
+    d.add_paragraph("LeCrown turns complex government and enterprise requirements into secure, cost-saving systems that are ready to operate. Fortune 100 companies have entrusted our key personnel to protect sensitive data, streamline critical work and deliver technology from first requirement through production and handoff. Agencies and prime contractors gain one accountable partner that can simplify the problem, build the solution and leave behind a capability their teams can sustain.")
     for item in CORE:
         para = d.add_paragraph(style=None)
         para.paragraph_format.left_indent = Inches(.12)

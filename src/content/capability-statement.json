@@ -1,6 +1,6 @@
 {
-  "headline": "Secure technology that cuts cost, protects data, and makes work simpler.",
-  "summary": "We help agencies and prime contractors replace manual work with secure, auditable software and AI-enabled workflows. Our key personnel have been entrusted by Fortune 100 companies to turn complex requirements into turnkey systems people can operate, monitor, and improve.",
+  "headline": "Protect the mission. Cut the cost. Leave a capability that lasts.",
+  "summary": "LeCrown turns complex government and enterprise requirements into secure, cost-saving systems that are ready to operate. Fortune 100 companies have entrusted our key personnel to protect sensitive data, streamline critical work, and deliver technology from first requirement through production and handoff.",
   "snapshot": [
     { "value": "25+", "label": "Years delivering enterprise technology" },
     { "value": "Houston", "label": "Texas-based, globally experienced" },
@@ -10,23 +10,23 @@
   "capabilities": [
     {
       "number": "01",
-      "title": "Cybersecurity & data protection",
-      "text": "Least-privilege access, identity controls, encryption, audit trails, secure cloud design, DevSecOps, and zero-trust-aligned practices that protect sensitive information and reduce exposure."
+      "title": "Cybersecurity, Zero Trust & data protection",
+      "text": "Secure identity and access, least privilege, encryption, audit trails, DevSecOps, and risk controls that protect sensitive information and reduce cyber exposure."
     },
     {
       "number": "02",
-      "title": "IT modernization & workflow automation",
-      "text": "Replace manual handoffs, spreadsheets, and disconnected tools with integrated software workflows, APIs, cloud platforms, and measurable operating controls."
+      "title": "IT modernization, integration & cost reduction",
+      "text": "Automate manual work, connect legacy and cloud systems, eliminate redundant steps, improve service delivery, and measure operating savings."
     },
     {
       "number": "03",
-      "title": "AI & data innovation",
-      "text": "Governed AI, reusable data platforms, MLOps, knowledge systems, traceable data, and human oversight that turn information into responsible, practical decisions."
+      "title": "AI, data platforms & responsible innovation",
+      "text": "Governed data foundations, MLOps, knowledge systems, lineage, and human oversight that make AI useful, secure, explainable, and accountable."
     },
     {
       "number": "04",
-      "title": "Turnkey systems delivery",
-      "text": "Discovery, system design, custom software, integration, cloud deployment, documentation, training, and knowledge transfer—from requirement to accountable handoff."
+      "title": "Turnkey software & cloud delivery",
+      "text": "Requirements, system and software design, custom applications, APIs, infrastructure as code, testing, deployment, training, and knowledge transfer."
     }
   ],
   "outcomes": [
