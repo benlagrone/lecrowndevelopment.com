@@ -317,13 +317,11 @@ def build_story(data, styles):
 
 
 def main():
-    with DATA.open(encoding="utf-8") as handle:
-        data = json.load(handle)
-    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    PUBLIC.parent.mkdir(parents=True, exist_ok=True)
-    doc = make_doc(OUTPUT)
-    doc.build(build_story(data, build_styles()))
-    shutil.copy2(OUTPUT, PUBLIC)
+    # Compatibility entrypoint: the government-facing one-page statement is
+    # now the canonical downloadable document.
+    from generate_government_capability_statement import build_pdf
+
+    build_pdf()
     print(OUTPUT)
     print(PUBLIC)
 

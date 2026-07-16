@@ -21,7 +21,7 @@ export default function CapabilityStatement() {
           <p>{capability.summary}</p>
           <div className="hero-actions">
             <a className="button" download href={pdfPath}>
-              Download capability statement
+              Download government capability statement
             </a>
             <Link className="button-secondary" to="/contact">
               Start a conversation <ArrowIcon />
